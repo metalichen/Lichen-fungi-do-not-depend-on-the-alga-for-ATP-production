@@ -1,0 +1,614 @@
+IQ-TREE 2.0.3 built Apr 26 2020
+
+Input file name: atp9_renamed_gpmph_intact.trimal.phylip
+Type of analysis: tree reconstruction + ultrafast bootstrap (50000 replicates)
+Random seed number: 12345
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 117 sequences with 165 amino-acid sites
+Number of constant sites: 4 (= 2.42424% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 4 (= 2.42424% of all sites)
+Number of parsimony informative sites: 153
+Number of distinct site patterns: 165
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1806
+  pi(R) = 0.0342
+  pi(N) = 0.0252
+  pi(D) = 0.0073
+  pi(C) = 0.0051
+  pi(Q) = 0.0332
+  pi(E) = 0.0277
+  pi(G) = 0.1269
+  pi(H) = 0.0018
+  pi(I) = 0.0912
+  pi(L) = 0.1320
+  pi(K) = 0.0212
+  pi(M) = 0.0476
+  pi(F) = 0.0581
+  pi(P) = 0.0274
+  pi(S) = 0.0539
+  pi(T) = 0.0439
+  pi(W) = 0.0012
+  pi(Y) = 0.0171
+  pi(V) = 0.0644
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.1991
+
+ Category  Relative_rate  Proportion
+  1         0.1749         0.2500
+  2         0.5294         0.2500
+  3         1.0265         0.2500
+  4         2.2692         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -11458.4944 (s.e. 670.3741)
+Unconstrained log-likelihood (without tree): -842.4810
+Number of free parameters (#branches + #model parameters): 249
+Akaike information criterion (AIC) score: 23414.9888
+Corrected Akaike information criterion (AICc) score: 147914.9888
+Bayesian information criterion (BIC) score: 24188.3692
+
+**************************** WARNING ****************************
+Number of parameters (K, model parameters and branch lengths): 249
+Sample size (n, alignment length): 165
+
+Given that K>=n, the parameter estimates might be inaccurate.
+Thus, phylogenetic estimates should be interpreted with caution.
+
+Ideally, it is desirable that n >> K. When selecting optimal models,
+1. use AIC or BIC if n > 40K;
+2. use AICc or BIC if 40K >= n > K;
+3. be extremely cautious if n <= K
+
+To improve the situation (3), consider the following options:
+  1. Increase the sample size (n)
+  2. Decrease the number of parameters (K) to be estimated. If
+     possible:
+     a. Remove the least important sequences from the alignment
+     b. Specify some of the parameter values for the substitution
+        model (e.g., the nucleotide or amino acid frequencies)
+     c. Specify some of the parameter values for the rates-across-
+        sites model (e.g., the shape parameter for the discrete
+        Gamma distribution, the proportion of invariable sites, or
+        the rates of change for different rate categories under
+        the FreeRate model)
+
+Reference:
+Burnham KR, Anderson DR (2002). Model Selection and Multimodel
+Inference: A Practical Information-Theoretic Approach. Springer,
+New York.
+************************ END OF WARNING ***********************
+
+Total tree length (sum of branch lengths): 66.0073
+Sum of internal branch lengths: 25.9464 (39.3083% of tree length)
+
+WARNING: 6 near-zero internal branches (<0.0061) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'P16000_Emericella_nidulans' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--P16000_Emericella_nidulans
+|
+|  +--B6QLG4_Talaromyces_marneffei
++--| (93)
+|  |        +--XP_011324668.1_Fusarium_graminearum
+|  |     +--| (62)
+|  |     |  +--Q2GQX4_Chaetomium_globosum
+|  |  +--| (61)
+|  |  |  +--P00842_Neurospora_crassa
+|  +--| (97)
+|     +--Q03672_Podospora_anserina
+|
+|                    +--B2APB0_Podospora_anserina
+|                 +--| (88)
+|                 |  +--gomphillus
+|              +--| (97)
+|              |  +----Q2HBT4_Chaetomium_globosum
+|           +--| (89)
+|           |  +--B2W3H8_Pyrenophora_tritici-repentis
+|        +--| (100)
+|        |  |                       +--Q37408_Emericella_nidulans
+|        |  |                    +--| (81)
+|        |  |                    |  +--Q6V9D7_Talaromyces_marneffei
+|        |  |                 +--| (50)
+|        |  |                 |  |  +**QDM58080.1_Bacidia_sorediata
+|        |  |                 |  +**| (81)
+|        |  |                 |     +**YP_009642657.1_Phlyctis_petraea
+|        |  |              +--| (65)
+|        |  |              |  |     +--YP_009687549.1_Ramalina_intermedia
+|        |  |              |  |  +--| (99)
+|        |  |              |  |  |  |  +**YP_009655113.1_Cladonia_macilenta
+|        |  |              |  |  |  +--| (100)
+|        |  |              |  |  |     +**QCX31169.1_Cladonia_ravenelii
+|        |  |              |  +**| (48)
+|        |  |              |     |     +--QCX31965.1_Nadvornikia_sorediata
+|        |  |              |     |  +--| (62)
+|        |  |              |     |  |  |  +--QCL17429.1_Graphis_scripta
+|        |  |              |     |  |  +**| (41)
+|        |  |              |     |  |     +--Q12635_Neurospora_crassa
+|        |  |              |     +--| (50)
+|        |  |              |        +--QBP39468.1_Pertusaria_propinqua
+|        |  |           +--| (68)
+|        |  |           |  +--Q01554_Trichophyton_rubrum
+|        |  |        +--| (72)
+|        |  |        |  +--Q1XA92_Paracoccidioides_brasiliensis
+|        |  |     +--| (97)
+|        |  |     |  +--ANE20419.1_Peltigera_dolichorrhiza
+|        |  |  +--| (88)
+|        |  |  |  +--A5J039_Gibberella_zeae
+|        |  +--| (76)
+|        |     |                 +--P61829_Saccharomyces_cerevisiae
+|        |     |              +--| (95)
+|        |     |              |  +--Q9B8D5_Candida_albicans
+|        |     |           +--| (99)
+|        |     |           |  |  +--Q75G38_Ashbya_gossypii
+|        |     |           |  +--| (97)
+|        |     |           |     +--P92811_Kluyveromyces_lactis
+|        |     |        +--| (99)
+|        |     |        |  +--Q85Q98_Candida_glabrata
+|        |     |     +--| (98)
+|        |     |     |  +--Q37695_Yarrowia_lipolytica
+|        |     |  +--| (86)
+|        |     |  |  |        +--A7KCS5_Pleurotus_ostreatus
+|        |     |  |  |     +--| (100)
+|        |     |  |  |     |  +--Q94ZJ5_Schizophyllum_commune
+|        |     |  |  |  +--| (97)
+|        |     |  |  |  |  |  +--Q6J9U5_Cryptococcus_neoformans
+|        |     |  |  |  |  +--| (89)
+|        |     |  |  |  |     |                                            +**P68699_Escherichia_coli
+|        |     |  |  |  |     |                                         +--| (100)
+|        |     |  |  |  |     |                                         |  +**Q57HX4_Salmonella_choleraesuis
+|        |     |  |  |  |     |                                    +----| (100)
+|        |     |  |  |  |     |                                    |    +--Q3SF61_Thiobacillus_denitrificans
+|        |     |  |  |  |     |                                 +--| (85)
+|        |     |  |  |  |     |                                 |  |        +--Q8DDH3_Vibrio_vulnificus
+|        |     |  |  |  |     |                                 |  |     +--| (100)
+|        |     |  |  |  |     |                                 |  |     |  +--B5FCZ6_Aliivibrio_fischeri
+|        |     |  |  |  |     |                                 |  |  +--| (93)
+|        |     |  |  |  |     |                                 |  |  |  +--A6VF37_Pseudomonas_aeruginosa
+|        |     |  |  |  |     |                                 |  +--| (92)
+|        |     |  |  |  |     |                                 |     +--B2I0Z7_Acinetobacter_baumannii
+|        |     |  |  |  |     |                             +---| (92)
+|        |     |  |  |  |     |                             |   |     +--A9BPU2_Delftia_acidovorans
+|        |     |  |  |  |     |                             |   |  +--| (46)
+|        |     |  |  |  |     |                             |   |  |  |  +**A2SC65_Methylibium_petroleiphilum
+|        |     |  |  |  |     |                             |   |  |  +--| (100)
+|        |     |  |  |  |     |                             |   |  |     +--Q12GQ5_Polaromonas
+|        |     |  |  |  |     |                             |   +--| (90)
+|        |     |  |  |  |     |                             |      +**A1WF53_Verminephrobacter_eiseniae
+|        |     |  |  |  |     |                          +--| (87)
+|        |     |  |  |  |     |                          |  +--------------B8ZR37_Mycobacterium_leprae
+|        |     |  |  |  |     |                       +--| (98)
+|        |     |  |  |  |     |                       |  |     +--P00845_Bacillus_sp
+|        |     |  |  |  |     |                       |  |  +--| (85)
+|        |     |  |  |  |     |                       |  |  |  |  +**B7HY70_Bacillus_cereus
+|        |     |  |  |  |     |                       |  |  |  +--| (50)
+|        |     |  |  |  |     |                       |  |  |     |  +-----Q03A23_Lactobacillus_paracasei
+|        |     |  |  |  |     |                       |  |  |     +--| (85)
+|        |     |  |  |  |     |                       |  |  |        +--Q6G7K2_Staphylococcus_aureus
+|        |     |  |  |  |     |                       |  +--| (87)
+|        |     |  |  |  |     |                       |     +------Q04G25_Oenococcus_oeni
+|        |     |  |  |  |     |                    +--| (95)
+|        |     |  |  |  |     |                    |  |   +--Q8G7A8_Bifidobacterium_longum
+|        |     |  |  |  |     |                    |  +---| (99)
+|        |     |  |  |  |     |                    |      +------------P0A304_Streptomyces_coelicolor
+|        |     |  |  |  |     |                 +--| (86)
+|        |     |  |  |  |     |                 |  |                  +--A6L4M1_Bacteroides_vulgatus
+|        |     |  |  |  |     |                 |  |               +--| (63)
+|        |     |  |  |  |     |                 |  |               |  +**Q64UA7_Bacteroides_fragilis
+|        |     |  |  |  |     |                 |  |            +--| (87)
+|        |     |  |  |  |     |                 |  |            |  +--B6YR09_Azobacteroides_pseudotrichonymphae
+|        |     |  |  |  |     |                 |  |         +--| (87)
+|        |     |  |  |  |     |                 |  |         |  +---------A0A523HR94_Caldithrix
+|        |     |  |  |  |     |                 |  |      +--| (50)
+|        |     |  |  |  |     |                 |  |      |  |  +-----A0A5E8HEI5_Leptospira_yanagawae
+|        |     |  |  |  |     |                 |  |      |  +--| (53)
+|        |     |  |  |  |     |                 |  |      |     +------L7CKB9_Rhodopirellula_baltica
+|        |     |  |  |  |     |                 |  |   +--| (75)
+|        |     |  |  |  |     |                 |  |   |  |  +------A0A1U7CMD2_Paludisphaera_borealis
+|        |     |  |  |  |     |                 |  |   |  +--| (52)
+|        |     |  |  |  |     |                 |  |   |     +-----A0A6P2D4P8_Gemmata_massiliana
+|        |     |  |  |  |     |                 |  +---| (99)
+|        |     |  |  |  |     |                 |      +--A0A5C8CHL9_Brachyspira_aalborgi
+|        |     |  |  |  |     |           +-----| (100)
+|        |     |  |  |  |     |           |     |                       +--Q8DLP7_Thermosynechococcus_elongatus
+|        |     |  |  |  |     |           |     |                    +--| (99)
+|        |     |  |  |  |     |           |     |                    |  |  +--B8HPJ7_Cyanothece
+|        |     |  |  |  |     |           |     |                    |  +--| (100)
+|        |     |  |  |  |     |           |     |                    |     +--B2J054_Nostoc_punctiforme
+|        |     |  |  |  |     |           |     |                 +--| (99)
+|        |     |  |  |  |     |           |     |                 |  |  +--A9BCE3_Prochlorococcus_marinus
+|        |     |  |  |  |     |           |     |                 |  +--| (100)
+|        |     |  |  |  |     |           |     |                 |     +**Q7U8W9_Synechococcus
+|        |     |  |  |  |     |           |     |              +--| (98)
+|        |     |  |  |  |     |           |     |              |  |  +--------B8DYT4_Dictyoglomus_turgidum
+|        |     |  |  |  |     |           |     |              |  +--| (90)
+|        |     |  |  |  |     |           |     |              |     |  +------A0A0C1RJ96_Methylacidiphilum_kamchatkense
+|        |     |  |  |  |     |           |     |              |     +--| (99)
+|        |     |  |  |  |     |           |     |              |        |   +--Q8TN57_Methanosarcina_acetivorans
+|        |     |  |  |  |     |           |     |              |        +---| (100)
+|        |     |  |  |  |     |           |     |              |            +--C6BWK9_Desulfovibrio_salexigens
+|        |     |  |  |  |     |           |     |           +--| (76)
+|        |     |  |  |  |     |           |     |           |  |     +--Q0ZS24_Clostridium_paradoxum
+|        |     |  |  |  |     |           |     |           |  |  +--| (90)
+|        |     |  |  |  |     |           |     |           |  |  |  |     +--P21905_Propionigenium_modestum
+|        |     |  |  |  |     |           |     |           |  |  |  |  +--| (100)
+|        |     |  |  |  |     |           |     |           |  |  |  |  |  +**Q8KRV3_Ilyobacter_tartaricus
+|        |     |  |  |  |     |           |     |           |  |  |  +--| (76)
+|        |     |  |  |  |     |           |     |           |  |  |     +--Q8RGD7_Fusobacterium_nucleatum
+|        |     |  |  |  |     |           |     |           |  +--| (66)
+|        |     |  |  |  |     |           |     |           |     |  +--------B1LBC4_Thermotoga
+|        |     |  |  |  |     |           |     |           |     +--| (60)
+|        |     |  |  |  |     |           |     |           |        +------A9NGW7_Acholeplasma_laidlawii
+|        |     |  |  |  |     |           |     |        +**| (68)
+|        |     |  |  |  |     |           |     |        |  |      +---Q8EWZ3_Mycoplasma_penetrans
+|        |     |  |  |  |     |           |     |        |  |   +--| (95)
+|        |     |  |  |  |     |           |     |        |  |   |  +-----Q2ST39_Mycoplasma_capricolum
+|        |     |  |  |  |     |           |     |        |  +---| (86)
+|        |     |  |  |  |     |           |     |        |      +-----B5ZAW9_Ureaplasma_urealyticum
+|        |     |  |  |  |     |           |     |     +--| (37)
+|        |     |  |  |  |     |           |     |     |  |     +------O66564_Aquifex_aeolicus
+|        |     |  |  |  |     |           |     |     |  |  +--| (88)
+|        |     |  |  |  |     |           |     |     |  |  |  |       +---Q9ZK12_Helicobacter_pylori
+|        |     |  |  |  |     |           |     |     |  |  |  |    +--| (99)
+|        |     |  |  |  |     |           |     |     |  |  |  |    |  +--Q5HUM3_Campylobacter_jejuni
+|        |     |  |  |  |     |           |     |     |  |  |  +----| (100)
+|        |     |  |  |  |     |           |     |     |  |  |       +--Q30TH1_Sulfurimonas_denitrificans
+|        |     |  |  |  |     |           |     |     |  +--| (83)
+|        |     |  |  |  |     |           |     |     |     |  +--B5EFG9_Geobacter_bemidjiensis
+|        |     |  |  |  |     |           |     |     |     +--| (81)
+|        |     |  |  |  |     |           |     |     |        |  +--Q1MPG5_Lawsonia_intracellularis
+|        |     |  |  |  |     |           |     |     |        +--| (89)
+|        |     |  |  |  |     |           |     |     |           |                +--A0A239HVC7_Granulicella_rosea
+|        |     |  |  |  |     |           |     |     |           |             +--| (34)
+|        |     |  |  |  |     |           |     |     |           |             |  +------------A0A321LJJ6_Blastocatellia
+|        |     |  |  |  |     |           |     |     |           |          +--| (33)
+|        |     |  |  |  |     |           |     |     |           |          |  +--A0A1H5UI06_Bryocella_elongata
+|        |     |  |  |  |     |           |     |     |           +----------| (97)
+|        |     |  |  |  |     |           |     |     |                      +--A0A2Z5G5X6_Acidisarcina_polymorpha
+|        |     |  |  |  |     |           |     |  +--| (78)
+|        |     |  |  |  |     |           |     |  |  |  +----Q6AQ28_Desulfotalea_psychrophila
+|        |     |  |  |  |     |           |     |  |  +--| (67)
+|        |     |  |  |  |     |           |     |  |     +----Q2LRB9_Syntrophus_aciditrophicus
+|        |     |  |  |  |     |           |     +--| (79)
+|        |     |  |  |  |     |           |        |      +--A0A1T4XGF3_Prosthecobacter_debontii
+|        |     |  |  |  |     |           |        +------| (100)
+|        |     |  |  |  |     |           |               +----A0A146G6M0_Terrimicrobium_sacchariphilum
+|        |     |  |  |  |     |        +**| (41)
+|        |     |  |  |  |     |        |  +----P15014_Rhodospirillum_rubrum
+|        |     |  |  |  |     |     +--| (74)
+|        |     |  |  |  |     |     |  |   +--Q1RGZ2_Rickettsia_bellii
+|        |     |  |  |  |     |     |  +---| (97)
+|        |     |  |  |  |     |     |      +----C0R5U2_Wolbachia
+|        |     |  |  |  |     |  +--| (86)
+|        |     |  |  |  |     |  |  |            +**Q16AM7_Roseobacter_denitrificans
+|        |     |  |  |  |     |  |  |   +--------| (100)
+|        |     |  |  |  |     |  |  |   |        +--Q1GDE1_Ruegeria
+|        |     |  |  |  |     |  |  +---| (94)
+|        |     |  |  |  |     |  |      +--Q4FPE8_Pelagibacter_ubique
+|        |     |  |  |  |     +--| (95)
+|        |     |  |  |  |        |   +**Q0BQY6_Granulibacter_bethesdensis
+|        |     |  |  |  |        +---| (100)
+|        |     |  |  |  |            |  +--Q5FRW6_Gluconobacter_oxydans
+|        |     |  |  |  |            +--| (100)
+|        |     |  |  |  |               +--A9HDM8_Gluconacetobacter_diazotrophicus
+|        |     |  |  +--| (84)
+|        |     |  |     +--Q0H8W9_Ustilago_maydis
+|        |     +--| (94)
+|        |        |     +--P21537_Schizosaccharomyces_pombe
+|        |        |  +--| (89)
+|        |        |  |  +--Q3T4E5_Rhizopus_oryzae
+|        |        +--| (95)
+|        |           +--Q37404_Allomyces_macrogynus
+|     +--| (79)
+|     |  |           +--alectoria_sarmentosa
+|     |  |        +**| (98)
+|     |  |        |  +--fallacina
+|     |  |     +--| (99)
+|     |  |     |  +**pseudevernia
+|     |  |  +--| (99)
+|     |  |  |  +--imshaugia
+|     |  +--| (100)
+|     |     +**evernia
+|  +--| (100)
+|  |  |  +--gyalolechia
+|  |  +--| (88)
+|  |     |  +--heterodermia
+|  |     +--| (88)
+|  |        +--ramalina_nuclear
++--| (100)
+   +--lasallia
+
+Tree in newick format:
+
+(P16000_Emericella_nidulans:0.2395163666,(B6QLG4_Talaromyces_marneffei:0.3048141872,(((XP_011324668.1_Fusarium_graminearum:0.1081390805,Q2GQX4_Chaetomium_globosum:0.1044302479)62:0.0244346155,P00842_Neurospora_crassa:0.0622586792)61:0.0310402583,Q03672_Podospora_anserina:0.0523502599)97:0.1784283413)93:0.0330923078,(((((((B2APB0_Podospora_anserina:0.3179715058,gomphillus:0.2092916106)88:0.0074189304,Q2HBT4_Chaetomium_globosum:0.7571220310)97:0.1913311546,B2W3H8_Pyrenophora_tritici-repentis:0.3321245209)89:0.1247642047,((((((((Q37408_Emericella_nidulans:0.0232263120,Q6V9D7_Talaromyces_marneffei:0.1842610930)81:0.0409438939,(QDM58080.1_Bacidia_sorediata:0.0000010000,YP_009642657.1_Phlyctis_petraea:0.0000010000)81:0.0000024146)50:0.0236116028,((YP_009687549.1_Ramalina_intermedia:0.0170896023,(YP_009655113.1_Cladonia_macilenta:0.0000021668,QCX31169.1_Cladonia_ravenelii:0.0000022249)100:0.0459373285)99:0.0452608870,((QCX31965.1_Nadvornikia_sorediata:0.0470743708,(QCL17429.1_Graphis_scripta:0.0199169507,Q12635_Neurospora_crassa:0.1274058410)41:0.0000020901)62:0.0209570831,QBP39468.1_Pertusaria_propinqua:0.0845954794)50:0.0423351539)48:0.0000023283)65:0.0236909759,Q01554_Trichophyton_rubrum:0.0208855592)68:0.0196680585,Q1XA92_Paracoccidioides_brasiliensis:0.2611582808)72:0.0198390961,ANE20419.1_Peltigera_dolichorrhiza:0.0873758361)97:0.1784295984,A5J039_Gibberella_zeae:0.1746641959)88:0.0791176369,((((((P61829_Saccharomyces_cerevisiae:0.1147860246,Q9B8D5_Candida_albicans:0.3336482748)95:0.0109403123,(Q75G38_Ashbya_gossypii:0.0849778677,P92811_Kluyveromyces_lactis:0.0191679991)97:0.0268219957)99:0.0842669535,Q85Q98_Candida_glabrata:0.1117988057)99:0.1679589585,Q37695_Yarrowia_lipolytica:0.0968996937)98:0.1367987317,(((A7KCS5_Pleurotus_ostreatus:0.0441577668,Q94ZJ5_Schizophyllum_commune:0.0225708523)100:0.2079112006,(Q6J9U5_Cryptococcus_neoformans:0.1293594801,(((((((((((((P68699_Escherichia_coli:0.0000022185,Q57HX4_Salmonella_choleraesuis:0.0000020444)100:0.2922874590,Q3SF61_Thiobacillus_denitrificans:0.1810849220)100:0.7642416502,(((Q8DDH3_Vibrio_vulnificus:0.0505057596,B5FCZ6_Aliivibrio_fischeri:0.0602895014)100:0.2841792073,A6VF37_Pseudomonas_aeruginosa:0.0489140006)93:0.1794150643,B2I0Z7_Acinetobacter_baumannii:0.3451190584)92:0.1035561431)85:0.3121692570,((A9BPU2_Delftia_acidovorans:0.0615773517,(A2SC65_Methylibium_petroleiphilum:0.0000010000,Q12GQ5_Polaromonas:0.0363217485)100:0.2741018642)46:0.0179934468,A1WF53_Verminephrobacter_eiseniae:0.0000022258)90:0.4305985377)92:0.6499722776,B8ZR37_Mycobacterium_leprae:2.1311869454)87:0.4644806094,((P00845_Bacillus_sp:0.3234405099,(B7HY70_Bacillus_cereus:0.0000028692,(Q03A23_Lactobacillus_paracasei:0.9202458551,Q6G7K2_Staphylococcus_aureus:0.2494519596)85:0.2659530248)50:0.0497615193)85:0.3064200136,Q04G25_Oenococcus_oeni:0.9999674710)87:0.4234269324)98:0.2141810712,(Q8G7A8_Bifidobacterium_longum:0.4118930145,P0A304_Streptomyces_coelicolor:1.8361631202)99:0.6098283622)95:0.2447684636,((((((A6L4M1_Bacteroides_vulgatus:0.2576256200,Q64UA7_Bacteroides_fragilis:0.0000028313)63:0.0186147048,B6YR09_Azobacteroides_pseudotrichonymphae:0.2762704658)87:0.1414296941,A0A523HR94_Caldithrix:1.3986662619)87:0.2204420612,(A0A5E8HEI5_Leptospira_yanagawae:0.9147344079,L7CKB9_Rhodopirellula_baltica:0.9687225716)53:0.2137173509)50:0.0919108799,(A0A1U7CMD2_Paludisphaera_borealis:0.9866188714,A0A6P2D4P8_Gemmata_massiliana:0.8432983566)52:0.2680428591)75:0.1021640813,A0A5C8CHL9_Brachyspira_aalborgi:0.4930111820)99:0.5983609071)86:0.2109889322,((((((((Q8DLP7_Thermosynechococcus_elongatus:0.1490654469,(B8HPJ7_Cyanothece:0.0228550642,B2J054_Nostoc_punctiforme:0.1000101134)100:0.0172320824)99:0.1229347405,(A9BCE3_Prochlorococcus_marinus:0.1127792194,Q7U8W9_Synechococcus:0.0000028451)100:0.1202327088)99:0.3764328819,(B8DYT4_Dictyoglomus_turgidum:1.3571611753,(A0A0C1RJ96_Methylacidiphilum_kamchatkense:0.9759321592,(Q8TN57_Methanosarcina_acetivorans:0.5299739999,C6BWK9_Desulfovibrio_salexigens:0.5418512233)100:0.5869463881)99:0.2648369660)90:0.2648291478)98:0.3806682824,((Q0ZS24_Clostridium_paradoxum:0.4437725490,((P21905_Propionigenium_modestum:0.0600514351,Q8KRV3_Ilyobacter_tartaricus:0.0000020989)100:0.0921033577,Q8RGD7_Fusobacterium_nucleatum:0.1828821276)76:0.0355950965)90:0.2709551872,(B1LBC4_Thermotoga:1.3605930352,A9NGW7_Acholeplasma_laidlawii:0.9790707136)60:0.1208765930)66:0.1253738247)76:0.1831420905,((Q8EWZ3_Mycoplasma_penetrans:0.6837755025,Q2ST39_Mycoplasma_capricolum:0.9491719080)95:0.4947070317,B5ZAW9_Ureaplasma_urealyticum:0.8817134586)86:0.5607242790)68:0.0003222000,((O66564_Aquifex_aeolicus:0.9664508641,((Q9ZK12_Helicobacter_pylori:0.6768713670,Q5HUM3_Campylobacter_jejuni:0.2328344778)99:0.1102081509,Q30TH1_Sulfurimonas_denitrificans:0.0802487636)100:0.6911145295)88:0.2421826822,(B5EFG9_Geobacter_bemidjiensis:0.5320647194,(Q1MPG5_Lawsonia_intracellularis:0.4294627309,(((A0A239HVC7_Granulicella_rosea:0.0478458101,A0A321LJJ6_Blastocatellia:1.8405751840)34:0.2708112969,A0A1H5UI06_Bryocella_elongata:0.1463760080)33:0.2010195644,A0A2Z5G5X6_Acidisarcina_polymorpha:0.0502691559)97:1.5215263830)89:0.3295732658)81:0.2355773601)83:0.4007368350)37:0.0864698156,(Q6AQ28_Desulfotalea_psychrophila:0.7803025377,Q2LRB9_Syntrophus_aciditrophicus:0.7663573877)67:0.3734428535)78:0.0721983760,(A0A1T4XGF3_Prosthecobacter_debontii:0.1040491762,A0A146G6M0_Terrimicrobium_sacchariphilum:0.7377466068)100:0.9827504534)79:0.1043967729)100:0.9032657001,P15014_Rhodospirillum_rubrum:0.7626932249)41:0.0036184636,(Q1RGZ2_Rickettsia_bellii:0.4076703912,C0R5U2_Wolbachia:0.7065774238)97:0.5830824617)74:0.1874733085,((Q16AM7_Roseobacter_denitrificans:0.0000025238,Q1GDE1_Ruegeria:0.2599700443)100:1.3083016290,Q4FPE8_Pelagibacter_ubique:0.2693800773)94:0.6557425115)86:0.1798986754,(Q0BQY6_Granulibacter_bethesdensis:0.0000022502,(Q5FRW6_Gluconobacter_oxydans:0.0811672354,A9HDM8_Gluconacetobacter_diazotrophicus:0.2316459946)100:0.3520713318)100:0.6677901755)95:0.1609953999)89:0.0578902728)97:0.2072590863,Q0H8W9_Ustilago_maydis:0.1993460493)84:0.1098063713)86:0.1255903218,((P21537_Schizosaccharomyces_pombe:0.4509778837,Q3T4E5_Rhizopus_oryzae:0.1539622640)89:0.0724683941,Q37404_Allomyces_macrogynus:0.2750118643)95:0.0696151882)94:0.1240587438)76:0.0860714097)100:0.3560723790,((((alectoria_sarmentosa:0.0265853954,fallacina:0.0135179403)98:0.0012209441,pseudevernia:0.0055428925)99:0.0123266696,imshaugia:0.0259695219)99:0.0063864695,evernia:0.0000026024)100:0.1226741384)79:0.0766645456,(gyalolechia:0.1368297201,(heterodermia:0.2958608126,ramalina_nuclear:0.1599509692)88:0.0661071725)88:0.0106319010)100:0.3634517779,lasallia:0.2497887343)100:0.2561184991);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 50000 bootstrap trees
+Log-likelihood of consensus tree: -11459.135034
+Robinson-Foulds distance between ML tree and consensus tree: 8
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--P16000_Emericella_nidulans
+|
+|  +--B6QLG4_Talaromyces_marneffei
++--| (93)
+|  |        +--XP_011324668.1_Fusarium_graminearum
+|  |     +--| (62)
+|  |     |  +--Q2GQX4_Chaetomium_globosum
+|  |  +--| (61)
+|  |  |  +--P00842_Neurospora_crassa
+|  +--| (97)
+|     +--Q03672_Podospora_anserina
+|
+|                    +--B2APB0_Podospora_anserina
+|                 +--| (88)
+|                 |  +--gomphillus
+|              +--| (97)
+|              |  +-----Q2HBT4_Chaetomium_globosum
+|           +--| (89)
+|           |  +--B2W3H8_Pyrenophora_tritici-repentis
+|        +--| (100)
+|        |  |                       +--Q37408_Emericella_nidulans
+|        |  |                    +--| (81)
+|        |  |                    |  +--Q6V9D7_Talaromyces_marneffei
+|        |  |                 +--| (50)
+|        |  |                 |  |  +--QDM58080.1_Bacidia_sorediata
+|        |  |                 |  +--| (81)
+|        |  |                 |     +--YP_009642657.1_Phlyctis_petraea
+|        |  |              +--| (65)
+|        |  |              |  |     +--YP_009687549.1_Ramalina_intermedia
+|        |  |              |  |  +--| (99)
+|        |  |              |  |  |  |  +--YP_009655113.1_Cladonia_macilenta
+|        |  |              |  |  |  +--| (100)
+|        |  |              |  |  |     +--QCX31169.1_Cladonia_ravenelii
+|        |  |              |  +--| (48)
+|        |  |              |     |     +--QCX31965.1_Nadvornikia_sorediata
+|        |  |              |     |  +--| (62)
+|        |  |              |     |  |  |  +--QCL17429.1_Graphis_scripta
+|        |  |              |     |  |  +--| (41)
+|        |  |              |     |  |     +--Q12635_Neurospora_crassa
+|        |  |              |     +--| (50)
+|        |  |              |        +--QBP39468.1_Pertusaria_propinqua
+|        |  |           +--| (68)
+|        |  |           |  +--Q01554_Trichophyton_rubrum
+|        |  |        +--| (72)
+|        |  |        |  +--Q1XA92_Paracoccidioides_brasiliensis
+|        |  |     +--| (97)
+|        |  |     |  +--ANE20419.1_Peltigera_dolichorrhiza
+|        |  |  +--| (88)
+|        |  |  |  +--A5J039_Gibberella_zeae
+|        |  +--| (76)
+|        |     |                 +--P61829_Saccharomyces_cerevisiae
+|        |     |              +--| (95)
+|        |     |              |  +--Q9B8D5_Candida_albicans
+|        |     |           +--| (99)
+|        |     |           |  |  +--Q75G38_Ashbya_gossypii
+|        |     |           |  +--| (97)
+|        |     |           |     +--P92811_Kluyveromyces_lactis
+|        |     |        +--| (99)
+|        |     |        |  +--Q85Q98_Candida_glabrata
+|        |     |     +--| (98)
+|        |     |     |  +--Q37695_Yarrowia_lipolytica
+|        |     |  +--| (86)
+|        |     |  |  |        +--A7KCS5_Pleurotus_ostreatus
+|        |     |  |  |     +--| (100)
+|        |     |  |  |     |  +--Q94ZJ5_Schizophyllum_commune
+|        |     |  |  |  +--| (97)
+|        |     |  |  |  |  |  +--Q6J9U5_Cryptococcus_neoformans
+|        |     |  |  |  |  +--| (89)
+|        |     |  |  |  |     |                                                     +**P68699_Escherichia_coli
+|        |     |  |  |  |     |                                                  +--|
+|        |     |  |  |  |     |                                                  |  +**B1JR36_Yersinia_pseudotuberculosis
+|        |     |  |  |  |     |                                               +--| (100)
+|        |     |  |  |  |     |                                               |  +--Q57HX4_Salmonella_choleraesuis
+|        |     |  |  |  |     |                                         +-----| (100)
+|        |     |  |  |  |     |                                         |     +--Q3SF61_Thiobacillus_denitrificans
+|        |     |  |  |  |     |                                      +--| (85)
+|        |     |  |  |  |     |                                      |  |        +--Q8DDH3_Vibrio_vulnificus
+|        |     |  |  |  |     |                                      |  |     +--| (100)
+|        |     |  |  |  |     |                                      |  |     |  +--B5FCZ6_Aliivibrio_fischeri
+|        |     |  |  |  |     |                                      |  |  +--| (93)
+|        |     |  |  |  |     |                                      |  |  |  +--A6VF37_Pseudomonas_aeruginosa
+|        |     |  |  |  |     |                                      |  +--| (92)
+|        |     |  |  |  |     |                                      |     +--B2I0Z7_Acinetobacter_baumannii
+|        |     |  |  |  |     |                                +-----| (92)
+|        |     |  |  |  |     |                                |     |     +--A9BPU2_Delftia_acidovorans
+|        |     |  |  |  |     |                                |     |  +--| (50)
+|        |     |  |  |  |     |                                |     |  |  +--A1WF53_Verminephrobacter_eiseniae
+|        |     |  |  |  |     |                                |     +--| (90)
+|        |     |  |  |  |     |                                |        |  +--A2SC65_Methylibium_petroleiphilum
+|        |     |  |  |  |     |                                |        +--| (100)
+|        |     |  |  |  |     |                                |           +--Q12GQ5_Polaromonas
+|        |     |  |  |  |     |                            +---| (87)
+|        |     |  |  |  |     |                            |   +------------------B8ZR37_Mycobacterium_leprae
+|        |     |  |  |  |     |                         +--| (98)
+|        |     |  |  |  |     |                         |  |     +--P00845_Bacillus_sp
+|        |     |  |  |  |     |                         |  |  +--| (85)
+|        |     |  |  |  |     |                         |  |  |  |  +--B7HY70_Bacillus_cereus
+|        |     |  |  |  |     |                         |  |  |  +--| (50)
+|        |     |  |  |  |     |                         |  |  |     |  +-------Q03A23_Lactobacillus_paracasei
+|        |     |  |  |  |     |                         |  |  |     +--| (85)
+|        |     |  |  |  |     |                         |  |  |        +--Q6G7K2_Staphylococcus_aureus
+|        |     |  |  |  |     |                         |  +--| (87)
+|        |     |  |  |  |     |                         |     +-------Q04G25_Oenococcus_oeni
+|        |     |  |  |  |     |                      +--| (95)
+|        |     |  |  |  |     |                      |  |    +--Q8G7A8_Bifidobacterium_longum
+|        |     |  |  |  |     |                      |  +----| (99)
+|        |     |  |  |  |     |                      |       +---------------P0A304_Streptomyces_coelicolor
+|        |     |  |  |  |     |                   +--| (86)
+|        |     |  |  |  |     |                   |  |                   +--A6L4M1_Bacteroides_vulgatus
+|        |     |  |  |  |     |                   |  |                +--| (63)
+|        |     |  |  |  |     |                   |  |                |  +--Q64UA7_Bacteroides_fragilis
+|        |     |  |  |  |     |                   |  |             +--| (87)
+|        |     |  |  |  |     |                   |  |             |  +--B6YR09_Azobacteroides_pseudotrichonymphae
+|        |     |  |  |  |     |                   |  |          +--| (87)
+|        |     |  |  |  |     |                   |  |          |  +-----------A0A523HR94_Caldithrix
+|        |     |  |  |  |     |                   |  |       +--| (50)
+|        |     |  |  |  |     |                   |  |       |  |  +-------A0A5E8HEI5_Leptospira_yanagawae
+|        |     |  |  |  |     |                   |  |       |  +--| (53)
+|        |     |  |  |  |     |                   |  |       |     +-------L7CKB9_Rhodopirellula_baltica
+|        |     |  |  |  |     |                   |  |    +--| (75)
+|        |     |  |  |  |     |                   |  |    |  |  +-------A0A1U7CMD2_Paludisphaera_borealis
+|        |     |  |  |  |     |                   |  |    |  +--| (52)
+|        |     |  |  |  |     |                   |  |    |     +------A0A6P2D4P8_Gemmata_massiliana
+|        |     |  |  |  |     |                   |  +----| (99)
+|        |     |  |  |  |     |                   |       +---A0A5C8CHL9_Brachyspira_aalborgi
+|        |     |  |  |  |     |           +-------| (100)
+|        |     |  |  |  |     |           |       |                    +--Q8DLP7_Thermosynechococcus_elongatus
+|        |     |  |  |  |     |           |       |                 +--| (99)
+|        |     |  |  |  |     |           |       |                 |  |  +--B8HPJ7_Cyanothece
+|        |     |  |  |  |     |           |       |                 |  +--| (100)
+|        |     |  |  |  |     |           |       |                 |     +--B2J054_Nostoc_punctiforme
+|        |     |  |  |  |     |           |       |              +--| (99)
+|        |     |  |  |  |     |           |       |              |  |  +--A9BCE3_Prochlorococcus_marinus
+|        |     |  |  |  |     |           |       |              |  +--| (100)
+|        |     |  |  |  |     |           |       |              |     +--Q7U8W9_Synechococcus
+|        |     |  |  |  |     |           |       |           +--| (98)
+|        |     |  |  |  |     |           |       |           |  |  +----------B8DYT4_Dictyoglomus_turgidum
+|        |     |  |  |  |     |           |       |           |  +--| (90)
+|        |     |  |  |  |     |           |       |           |     |  +-------A0A0C1RJ96_Methylacidiphilum_kamchatkense
+|        |     |  |  |  |     |           |       |           |     +--| (99)
+|        |     |  |  |  |     |           |       |           |        |    +---Q8TN57_Methanosarcina_acetivorans
+|        |     |  |  |  |     |           |       |           |        +----| (100)
+|        |     |  |  |  |     |           |       |           |             +---C6BWK9_Desulfovibrio_salexigens
+|        |     |  |  |  |     |           |       |        +--| (76)
+|        |     |  |  |  |     |           |       |        |  |     +---Q0ZS24_Clostridium_paradoxum
+|        |     |  |  |  |     |           |       |        |  |  +--| (90)
+|        |     |  |  |  |     |           |       |        |  |  |  |     +--P21905_Propionigenium_modestum
+|        |     |  |  |  |     |           |       |        |  |  |  |  +--| (100)
+|        |     |  |  |  |     |           |       |        |  |  |  |  |  +--Q8KRV3_Ilyobacter_tartaricus
+|        |     |  |  |  |     |           |       |        |  |  |  +--| (76)
+|        |     |  |  |  |     |           |       |        |  |  |     +--Q8RGD7_Fusobacterium_nucleatum
+|        |     |  |  |  |     |           |       |        |  +--| (66)
+|        |     |  |  |  |     |           |       |        |     |  +-----------B1LBC4_Thermotoga
+|        |     |  |  |  |     |           |       |        |     +--| (60)
+|        |     |  |  |  |     |           |       |        |        +-------A9NGW7_Acholeplasma_laidlawii
+|        |     |  |  |  |     |           |       |     +--| (68)
+|        |     |  |  |  |     |           |       |     |  |       +-----Q8EWZ3_Mycoplasma_penetrans
+|        |     |  |  |  |     |           |       |     |  |   +---| (95)
+|        |     |  |  |  |     |           |       |     |  |   |   +-------Q2ST39_Mycoplasma_capricolum
+|        |     |  |  |  |     |           |       |     |  +---| (86)
+|        |     |  |  |  |     |           |       |     |      +-------B5ZAW9_Ureaplasma_urealyticum
+|        |     |  |  |  |     |           |       |  +--| (78)
+|        |     |  |  |  |     |           |       |  |  |        +-------O66564_Aquifex_aeolicus
+|        |     |  |  |  |     |           |       |  |  |     +--| (88)
+|        |     |  |  |  |     |           |       |  |  |     |  |        +-----Q9ZK12_Helicobacter_pylori
+|        |     |  |  |  |     |           |       |  |  |     |  |     +--| (99)
+|        |     |  |  |  |     |           |       |  |  |     |  |     |  +--Q5HUM3_Campylobacter_jejuni
+|        |     |  |  |  |     |           |       |  |  |     |  +-----| (100)
+|        |     |  |  |  |     |           |       |  |  |     |        +--Q30TH1_Sulfurimonas_denitrificans
+|        |     |  |  |  |     |           |       |  |  |  +--| (83)
+|        |     |  |  |  |     |           |       |  |  |  |  |  +----B5EFG9_Geobacter_bemidjiensis
+|        |     |  |  |  |     |           |       |  |  |  |  +--| (81)
+|        |     |  |  |  |     |           |       |  |  |  |     |  +---Q1MPG5_Lawsonia_intracellularis
+|        |     |  |  |  |     |           |       |  |  |  |     +--| (89)
+|        |     |  |  |  |     |           |       |  |  |  |        |           +--A0A239HVC7_Granulicella_rosea
+|        |     |  |  |  |     |           |       |  |  |  |        |       +---| (66)
+|        |     |  |  |  |     |           |       |  |  |  |        |       |   |  +--A0A1H5UI06_Bryocella_elongata
+|        |     |  |  |  |     |           |       |  |  |  |        |       |   +--| (64)
+|        |     |  |  |  |     |           |       |  |  |  |        |       |      +--A0A2Z5G5X6_Acidisarcina_polymorpha
+|        |     |  |  |  |     |           |       |  |  |  |        +-------| (97)
+|        |     |  |  |  |     |           |       |  |  |  |                +----------A0A321LJJ6_Blastocatellia
+|        |     |  |  |  |     |           |       |  |  +--| (46)
+|        |     |  |  |  |     |           |       |  |     |  +-----Q6AQ28_Desulfotalea_psychrophila
+|        |     |  |  |  |     |           |       |  |     +--| (67)
+|        |     |  |  |  |     |           |       |  |        +------Q2LRB9_Syntrophus_aciditrophicus
+|        |     |  |  |  |     |           |       +--| (79)
+|        |     |  |  |  |     |           |          |       +--A0A1T4XGF3_Prosthecobacter_debontii
+|        |     |  |  |  |     |           |          +-------| (100)
+|        |     |  |  |  |     |           |                  +-----A0A146G6M0_Terrimicrobium_sacchariphilum
+|        |     |  |  |  |     |        +--| (41)
+|        |     |  |  |  |     |        |  +-----P15014_Rhodospirillum_rubrum
+|        |     |  |  |  |     |     +--| (74)
+|        |     |  |  |  |     |     |  |    +--Q1RGZ2_Rickettsia_bellii
+|        |     |  |  |  |     |     |  +----| (97)
+|        |     |  |  |  |     |     |       +-----C0R5U2_Wolbachia
+|        |     |  |  |  |     |  +--| (86)
+|        |     |  |  |  |     |  |  |                +--Q16AM7_Roseobacter_denitrificans
+|        |     |  |  |  |     |  |  |     +----------| (100)
+|        |     |  |  |  |     |  |  |     |          +--Q1GDE1_Ruegeria
+|        |     |  |  |  |     |  |  +-----| (94)
+|        |     |  |  |  |     |  |        +--Q4FPE8_Pelagibacter_ubique
+|        |     |  |  |  |     +--| (95)
+|        |     |  |  |  |        |     +--Q0BQY6_Granulibacter_bethesdensis
+|        |     |  |  |  |        +-----| (100)
+|        |     |  |  |  |              |  +--Q5FRW6_Gluconobacter_oxydans
+|        |     |  |  |  |              +--| (100)
+|        |     |  |  |  |                 +--A9HDM8_Gluconacetobacter_diazotrophicus
+|        |     |  |  +--| (84)
+|        |     |  |     +--Q0H8W9_Ustilago_maydis
+|        |     +--| (94)
+|        |        |     +---P21537_Schizosaccharomyces_pombe
+|        |        |  +--| (89)
+|        |        |  |  +--Q3T4E5_Rhizopus_oryzae
+|        |        +--| (95)
+|        |           +--Q37404_Allomyces_macrogynus
+|     +--| (79)
+|     |  |           +--alectoria_sarmentosa
+|     |  |        +--| (98)
+|     |  |        |  +--fallacina
+|     |  |     +--| (99)
+|     |  |     |  +--pseudevernia
+|     |  |  +--| (99)
+|     |  |  |  +--imshaugia
+|     |  +--| (100)
+|     |     +--evernia
+|  +--| (100)
+|  |  |  +--gyalolechia
+|  |  +--| (88)
+|  |     |  +--heterodermia
+|  |     +--| (88)
+|  |        +--ramalina_nuclear
++--| (100)
+   +--lasallia
+
+
+Consensus tree in newick format: 
+
+(P16000_Emericella_nidulans:0.2402001718,(B6QLG4_Talaromyces_marneffei:0.3063624981,(((XP_011324668.1_Fusarium_graminearum:0.1087619493,Q2GQX4_Chaetomium_globosum:0.1048362590)62:0.0243262441,P00842_Neurospora_crassa:0.0626209428)61:0.0313074764,Q03672_Podospora_anserina:0.0524496046)97:0.1790926743)93:0.0336811522,(((((((B2APB0_Podospora_anserina:0.3195334134,gomphillus:0.2103673140)88:0.0080511767,Q2HBT4_Chaetomium_globosum:0.7611102541)97:0.1919086326,B2W3H8_Pyrenophora_tritici-repentis:0.3323229814)89:0.1261747031,((((((((Q37408_Emericella_nidulans:0.0232791713,Q6V9D7_Talaromyces_marneffei:0.1850200912)81:0.0412702008,(QDM58080.1_Bacidia_sorediata:0.0000024885,YP_009642657.1_Phlyctis_petraea:0.0000025168)81:0.0000025168)50:0.0238011007,((YP_009687549.1_Ramalina_intermedia:0.0172788038,(YP_009655113.1_Cladonia_macilenta:0.0000024885,QCX31169.1_Cladonia_ravenelii:0.0000024885)100:0.0459635520)99:0.0453968021,((QCX31965.1_Nadvornikia_sorediata:0.0473775264,(QCL17429.1_Graphis_scripta:0.0200272240,Q12635_Neurospora_crassa:0.1279643227)41:0.0000024885)62:0.0211973702,QBP39468.1_Pertusaria_propinqua:0.0849995277)50:0.0424908609)48:0.0000026865)65:0.0238830055,Q01554_Trichophyton_rubrum:0.0210230257)68:0.0197538591,Q1XA92_Paracoccidioides_brasiliensis:0.2631660912)72:0.0200026424,ANE20419.1_Peltigera_dolichorrhiza:0.0879650509)97:0.1811727889,A5J039_Gibberella_zeae:0.1752854929)88:0.0800022377,((((((P61829_Saccharomyces_cerevisiae:0.1152172045,Q9B8D5_Candida_albicans:0.3349339921)95:0.0109845281,(Q75G38_Ashbya_gossypii:0.0852601044,P92811_Kluyveromyces_lactis:0.0192541022)97:0.0269266780)99:0.0847037454,Q85Q98_Candida_glabrata:0.1123246387)99:0.1689494914,Q37695_Yarrowia_lipolytica:0.0976211565)98:0.1372901308,(((A7KCS5_Pleurotus_ostreatus:0.0445849886,Q94ZJ5_Schizophyllum_commune:0.0226794059)100:0.2094507030,(Q6J9U5_Cryptococcus_neoformans:0.1321912812,((((((((((((((P68699_Escherichia_coli:0.0000000000,B1JR36_Yersinia_pseudotuberculosis:0.0000000000):0.0000024885,Q57HX4_Salmonella_choleraesuis:0.0000024885)100:0.2925088618,Q3SF61_Thiobacillus_denitrificans:0.1830093959)100:0.7639775059,(((Q8DDH3_Vibrio_vulnificus:0.0505992870,B5FCZ6_Aliivibrio_fischeri:0.0608534091)100:0.2866283264,A6VF37_Pseudomonas_aeruginosa:0.0486212781)93:0.1828941557,B2I0Z7_Acinetobacter_baumannii:0.3463037979)92:0.1059975415)85:0.2792490520,((A9BPU2_Delftia_acidovorans:0.0786370748,A1WF53_Verminephrobacter_eiseniae:0.0000020859)50:0.0878159141,(A2SC65_Methylibium_petroleiphilum:0.0000024885,Q12GQ5_Polaromonas:0.0366018844)100:0.2020093827)90:0.3600891488)92:0.7036091472,B8ZR37_Mycobacterium_leprae:2.1745028355)87:0.4636767402,((P00845_Bacillus_sp:0.3285317590,(B7HY70_Bacillus_cereus:0.0000021615,(Q03A23_Lactobacillus_paracasei:0.9228768359,Q6G7K2_Staphylococcus_aureus:0.2482683676)85:0.2672252618)50:0.0462978759)85:0.3408556610,Q04G25_Oenococcus_oeni:0.9726259597)87:0.4057508968)98:0.2237416515,(Q8G7A8_Bifidobacterium_longum:0.4169503522,P0A304_Streptomyces_coelicolor:1.8392497182)99:0.5968116795)95:0.2432966956,((((((A6L4M1_Bacteroides_vulgatus:0.2594773431,Q64UA7_Bacteroides_fragilis:0.0000023528)63:0.0175162740,B6YR09_Azobacteroides_pseudotrichonymphae:0.2795908426)87:0.1437544417,A0A523HR94_Caldithrix:1.4026082763)87:0.2349934520,(A0A5E8HEI5_Leptospira_yanagawae:0.9065347154,L7CKB9_Rhodopirellula_baltica:0.9800069564)53:0.2070491671)50:0.0893339479,(A0A1U7CMD2_Paludisphaera_borealis:0.9836407547,A0A6P2D4P8_Gemmata_massiliana:0.8584280224)52:0.2615868618)75:0.0897290017,A0A5C8CHL9_Brachyspira_aalborgi:0.5216398896)99:0.6015887267)86:0.1980800246,(((((((Q8DLP7_Thermosynechococcus_elongatus:0.1499747638,(B8HPJ7_Cyanothece:0.0229686377,B2J054_Nostoc_punctiforme:0.1005871815)100:0.0172651510)99:0.1249377812,(A9BCE3_Prochlorococcus_marinus:0.1134749517,Q7U8W9_Synechococcus:0.0000021305)100:0.1190006542)99:0.3740467260,(B8DYT4_Dictyoglomus_turgidum:1.3405501104,(A0A0C1RJ96_Methylacidiphilum_kamchatkense:0.9943649037,(Q8TN57_Methanosarcina_acetivorans:0.5260674571,C6BWK9_Desulfovibrio_salexigens:0.5550192050)100:0.5807238794)99:0.2708156063)90:0.2609234991)98:0.4049192422,((Q0ZS24_Clostridium_paradoxum:0.4786290332,((P21905_Propionigenium_modestum:0.0604022246,Q8KRV3_Ilyobacter_tartaricus:0.0000025280)100:0.0944650564,Q8RGD7_Fusobacterium_nucleatum:0.1828251438)76:0.0000022937)90:0.2545190916,(B1LBC4_Thermotoga:1.3735162178,A9NGW7_Acholeplasma_laidlawii:1.0021466194)60:0.1375145750)66:0.1138985589)76:0.1353111365,((Q8EWZ3_Mycoplasma_penetrans:0.7103614066,Q2ST39_Mycoplasma_capricolum:0.9117511190)95:0.4668799124,B5ZAW9_Ureaplasma_urealyticum:0.9291795869)86:0.5248048973)68:0.1051085164,(((O66564_Aquifex_aeolicus:0.9952340922,((Q9ZK12_Helicobacter_pylori:0.6814065308,Q5HUM3_Campylobacter_jejuni:0.2316925006)99:0.1163731405,Q30TH1_Sulfurimonas_denitrificans:0.0765880000)100:0.6794738321)88:0.2112738591,(B5EFG9_Geobacter_bemidjiensis:0.5753857437,(Q1MPG5_Lawsonia_intracellularis:0.5146547349,((A0A239HVC7_Granulicella_rosea:0.1448914909,(A0A1H5UI06_Bryocella_elongata:0.1453636943,A0A2Z5G5X6_Acidisarcina_polymorpha:0.2492833813)64:0.1756181879)66:0.5321167528,A0A321LJJ6_Blastocatellia:1.2964827018)97:0.9821351411)89:0.2228838507)81:0.2982965389)83:0.2996181257,(Q6AQ28_Desulfotalea_psychrophila:0.7787820204,Q2LRB9_Syntrophus_aciditrophicus:0.8360786297)67:0.2070281422)46:0.1792278281)78:0.1358886187,(A0A1T4XGF3_Prosthecobacter_debontii:0.0927031543,A0A146G6M0_Terrimicrobium_sacchariphilum:0.7569578397)100:1.0038928511)79:0.0920961671)100:0.9124057812,P15014_Rhodospirillum_rubrum:0.7819972010)41:0.0000020610,(Q1RGZ2_Rickettsia_bellii:0.4040956264,C0R5U2_Wolbachia:0.7183424683)97:0.5889240891)74:0.1894750620,((Q16AM7_Roseobacter_denitrificans:0.0000024188,Q1GDE1_Ruegeria:0.2591779794)100:1.3200962247,Q4FPE8_Pelagibacter_ubique:0.2709335306)94:0.6743358800)86:0.1734586755,(Q0BQY6_Granulibacter_bethesdensis:0.0000021142,(Q5FRW6_Gluconobacter_oxydans:0.0818066319,A9HDM8_Gluconacetobacter_diazotrophicus:0.2331431766)100:0.3541698206)100:0.6802470548)95:0.1553037788)89:0.0574454884)97:0.2085403590,Q0H8W9_Ustilago_maydis:0.2003832089)84:0.1108460788)86:0.1263214279,((P21537_Schizosaccharomyces_pombe:0.4546485958,Q3T4E5_Rhizopus_oryzae:0.1553940611)89:0.0725615858,Q37404_Allomyces_macrogynus:0.2780117562)95:0.0700608298)94:0.1248906002)76:0.0857574389)100:0.3578258976,((((alectoria_sarmentosa:0.0266425447,fallacina:0.0135488459)98:0.0012231326,pseudevernia:0.0055543244)99:0.0123544797,imshaugia:0.0260235657)99:0.0064002533,evernia:0.0000024885)100:0.1237774886)79:0.0762911830,(gyalolechia:0.1371060339,(heterodermia:0.2963784304,ramalina_nuclear:0.1597569932)88:0.0671972705)88:0.0106388739)100:0.3649443212,lasallia:0.2505597225)100:0.2568726007);
+
+TIME STAMP
+----------
+
+Date and time: Tue Dec 29 02:40:18 2020
+Total CPU time used: 7931.068889 seconds (2h:12m:11s)
+Total wall-clock time used: 1072.627775 seconds (0h:17m:52s)
+

@@ -1,0 +1,356 @@
+ 117 165
+P16000_Emericella_nidulans                  MAASRVFAQRLASTM---KVARPAAR--------IQARTLTTQRMATPFQTIKRQQPSMI
+B6QLG4_Talaromyces_marneffei                M-ASKMFANRMATMASS-SVARSAVRSQFA---AVPKRTFTNAVQRTAFQAPKR---TIP
+XP_011324668.1_Fusarium_graminearum         MASSRVFASRLASQMA-VKAARPAVRANVA---AASKRTIS---GVSPLQAMKRQ--TLL
+P00842_Neurospora_crassa                    MASTRVLASRLASQMAAAKVARPAVR--VA---QVSKRTIQ---TGSPLQTLKRTQMSIV
+Q03672_Podospora_anserina                   MASTRVLASRLASQMA-TKVARPAVR--------VPARAFTAGTKATPLQAVKRQQMSII
+B2APB0_Podospora_anserina                   MNASSKLAGAVARM-----GAKPAMAQT----------------SRLPSSILRSTSI-LL
+Q2GQX4_Chaetomium_globosum                  MASTRVLASRLASQMA-TKAARPAARVTLA---NTSKRTLTVASKSSPLQAVKRQQMSII
+Q2HBT4_Chaetomium_globosum                  ------------------------------------------------------------
+B2W3H8_Pyrenophora_tritici-repentis         -------------MVAIFGAARVAARG-----FTNAAR------QPTPNTLV--------
+alectoria_sarmentosa                        MSSARFMAPKVASMLGSAGAARPALRSTAKLQFNNPQRAISNNAVKSPFQTLKRQQA---
+evernia                                     MSSARFMAPKVASMLGSAGAARPALRSTAKLQFNNPQRAISNNAAKSPFQTLKRQQV---
+fallacina                                   MSAARFMAPKVASMLGSAGAARPALRSTAKLQFNNPQRAISNNAAKSPFQTLKRQQV---
+gomphillus                                  M------------FPASSATARVGMQSVARRQISTSQV------SRLPSSIAPSRQILLQ
+gyalolechia                                 M-------------LGS--AARPAFRSNLQLQLTNSQRGISNTAAKSPFQASKRQQI---
+heterodermia                                M----------------ATSAKAAGRSGFKL--ANSQRGVSNTAQKSPFLLSARPTG--I
+imshaugia                                   MSSARFMAPKVASMLGSAGAARPALRSTAKLQFNNPQRAISSNAAKSPFQTLKRQQV---
+lasallia                                    MSTTRLLAPKVASLMGSIKAARPALRANLNVQSKSSARGFSRSNTASPFRNLKRQQAQIL
+pseudevernia                                MSSARFMAPKVASMLGSAGAARPALRSTAKLQFNNPQRAISNNAAKSPFQTLKRQQV---
+ramalina_nuclear                            MSSS-----KIASMAGTKAAARPALLSNLKLQLAQPQRGLSKHTARSPFHSMKRQTV-PT
+Q37408_Emericella_nidulans                  ------------------------------------------------------------
+YP_009687549.1_Ramalina_intermedia          ------------------------------------------------------------
+QDM58080.1_Bacidia_sorediata                ------------------------------------------------------------
+YP_009655113.1_Cladonia_macilenta           ------------------------------------------------------------
+QCX31965.1_Nadvornikia_sorediata            ------------------------------------------------------------
+QCX31169.1_Cladonia_ravenelii               ------------------------------------------------------------
+YP_009642657.1_Phlyctis_petraea             M-----------------------------------------------------------
+QCL17429.1_Graphis_scripta                  ------------------------------------------------------------
+QBP39468.1_Pertusaria_propinqua             ------------------------------------------------------------
+ANE20419.1_Peltigera_dolichorrhiza          ------------------------------------------------------------
+Q6V9D7_Talaromyces_marneffei                ------------------------------------------------------------
+Q1XA92_Paracoccidioides_brasiliensis        ------------------------------------------------------------
+Q01554_Trichophyton_rubrum                  ------------------------------------------------------------
+A5J039_Gibberella_zeae                      ------------------------------------------------------------
+Q12635_Neurospora_crassa                    ------------------------------------------------------------
+P61829_Saccharomyces_cerevisiae             ------------------------MQ----------------------------------
+Q85Q98_Candida_glabrata                     ------------------------MQ----------------------------------
+Q75G38_Ashbya_gossypii                      ------------------------MQ----------------------------------
+P92811_Kluyveromyces_lactis                 ------------------------MQ----------------------------------
+Q9B8D5_Candida_albicans                     ------------------------MQ----------------------------------
+Q37695_Yarrowia_lipolytica                  ------------------------MQ----------------------------------
+P21537_Schizosaccharomyces_pombe            ------------------------------------------------------------
+A7KCS5_Pleurotus_ostreatus                  ------------------------------------------------------------
+Q94ZJ5_Schizophyllum_commune                ------------------------------------------------------------
+Q6J9U5_Cryptococcus_neoformans              ------------------------------------------------------------
+Q0H8W9_Ustilago_maydis                      ------------------------------------------------------------
+Q3T4E5_Rhizopus_oryzae                      ------------------------------------------------------------
+Q37404_Allomyces_macrogynus                 ------------------------------------------------------------
+P68699_Escherichia_coli                     ------------------------ME----------------------------------
+P00845_Bacillus_sp                          ------------------------------------------------------------
+Q8DLP7_Thermosynechococcus_elongatus        ------------------------MN----------------------------------
+Q0ZS24_Clostridium_paradoxum                ------------------------ME----------------------------------
+A6L4M1_Bacteroides_vulgatus                 ------------------------ML--------LA---------------------VLL
+B6YR09_Azobacteroides_pseudotrichonymphae   ------------------------ML--------LS---------------------ILL
+O66564_Aquifex_aeolicus                     M-----------------------MKRLM----------------------------AIL
+B1LBC4_Thermotoga                           ------------------------MENLG-------------------------------
+P21905_Propionigenium_modestum              ------------------------MDMVL-------------------------------
+B8DYT4_Dictyoglomus_turgidum                ------------------------ML----------------------------------
+Q0BQY6_Granulibacter_bethesdensis           ------------------------MD----------------------------------
+Q1RGZ2_Rickettsia_bellii                    ------------------------MD----------------------------------
+Q16AM7_Roseobacter_denitrificans            ------------------------ME----------------------------------
+C0R5U2_Wolbachia                            ------------------------MD----------------------------------
+Q4FPE8_Pelagibacter_ubique                  ------------------------ME----------------------------------
+P15014_Rhodospirillum_rubrum                ------------------------MD----------------------------------
+Q1GDE1_Ruegeria                             ------------------------ME----------------------------------
+Q5FRW6_Gluconobacter_oxydans                ------------------------MDVQ--------------------------------
+A9HDM8_Gluconacetobacter_diazotrophicus     ------------------------MD----------------------------------
+A9BPU2_Delftia_acidovorans                  ------------------------ME----------------------------------
+Q3SF61_Thiobacillus_denitrificans           ------------------------ME----------------------------------
+A2SC65_Methylibium_petroleiphilum           ------------------------ME----------------------------------
+Q12GQ5_Polaromonas                          ------------------------ME----------------------------------
+A1WF53_Verminephrobacter_eiseniae           ------------------------ME----------------------------------
+Q8DDH3_Vibrio_vulnificus                    ------------------------ME----------------------------------
+Q57HX4_Salmonella_choleraesuis              ------------------------ME----------------------------------
+A6VF37_Pseudomonas_aeruginosa               ------------------------ME----------------------------------
+B2I0Z7_Acinetobacter_baumannii              ------------------------ME----------------------------------
+B5FCZ6_Aliivibrio_fischeri                  ------------------------ME----------------------------------
+B1JR36_Yersinia_pseudotuberculosis          ------------------------ME----------------------------------
+Q6AQ28_Desulfotalea_psychrophila            ------------------------ME----------------------------------
+B5EFG9_Geobacter_bemidjiensis               ------------------------ME----------------------------------
+Q9ZK12_Helicobacter_pylori                  ------------------------MKFLA----------------------------LFF
+Q30TH1_Sulfurimonas_denitrificans           ------------------------MKKIL----------------------------FLM
+Q5HUM3_Campylobacter_jejuni                 ------------------------MKKVL----------------------------FLL
+Q2LRB9_Syntrophus_aciditrophicus            ------------------------MVTCLTTF-------------------------AVL
+Q1MPG5_Lawsonia_intracellularis             ------------------------MVKLD-------------------------------
+A0A239HVC7_Granulicella_rosea               ------------------------MRMLQMVFMSLAV--------------------LLL
+A0A321LJJ6_Blastocatellia                   ------------------------MSALTT---------------------------LLI
+A0A1H5UI06_Bryocella_elongata               ------------------------MRKLQYLFMSLAA--------------------LLI
+A0A2Z5G5X6_Acidisarcina_polymorpha          ------------------------MRKLQYLFMTLSA--------------------LLM
+A0A523HR94_Caldithrix                       ------------------------MT----------------------------------
+Q8RGD7_Fusobacterium_nucleatum              ------------------------MDLLT-------------------------------
+A0A5E8HEI5_Leptospira_yanagawae             ------------------------ME----------------------------------
+A0A5C8CHL9_Brachyspira_aalborgi             ------------------------MD----------------------------------
+Q8G7A8_Bifidobacterium_longum               ------------------------MD----------------------------------
+P0A304_Streptomyces_coelicolor              ------------------------MS----------------------------------
+B8ZR37_Mycobacterium_leprae                 ------------------------MD----------------------------------
+B8HPJ7_Cyanothece                           ------------------------MD----------------------------------
+A9BCE3_Prochlorococcus_marinus              ------------------------MD----------------------------------
+Q7U8W9_Synechococcus                        ------------------------MD----------------------------------
+B2J054_Nostoc_punctiforme                   ------------------------MD----------------------------------
+B7HY70_Bacillus_cereus                      ------------------------------------------------------------
+Q03A23_Lactobacillus_paracasei              ------------------------------------------------------------
+Q6G7K2_Staphylococcus_aureus                ------------------------------------------------------------
+Q04G25_Oenococcus_oeni                      ------------------------------------------------------------
+Q8EWZ3_Mycoplasma_penetrans                 ------------------------MN----------------------------------
+Q2ST39_Mycoplasma_capricolum                MLHTAFISNILANYLGA-------MSVILPN-----------------------------
+A9NGW7_Acholeplasma_laidlawii               ------------------------MNTFF----------------------------QIM
+B5ZAW9_Ureaplasma_urealyticum               ------------------------MSSFI----------------------------DIT
+L7CKB9_Rhodopirellula_baltica               -------------------------------MLELAM--------------------MLA
+A0A1U7CMD2_Paludisphaera_borealis           ------------------------MKLIKSALFAFAL--------------------LLM
+A0A6P2D4P8_Gemmata_massiliana               ------------------------MKLACRI--TLAL--------------------VLL
+A0A1T4XGF3_Prosthecobacter_debontii         M-----------------------ME--------------------------------LM
+A0A146G6M0_Terrimicrobium_sacchariphilum    ------------------------MTS------------------------------MIL
+A0A0C1RJ96_Methylacidiphilum_kamchatkense   ------------------------MN----------------------------------
+Q64UA7_Bacteroides_fragilis                 ------------------------ML--------LS---------------------VLL
+Q8KRV3_Ilyobacter_tartaricus                ------------------------MDMLF-------------------------------
+Q8TN57_Methanosarcina_acetivorans           ------------------------MTLDTY------------------------------
+C6BWK9_Desulfovibrio_salexigens             ------------------------ME----------------------------------
+
+QASARQAF--AARRQYSSEIADAMVQVSQNIGMGSAA-IGLGGAGIGIGVVFGSLLLAVS
+AAVARQAFQAQARRGYSSEIANALVEVSQNIGMGSAA-IGLAGAGTGIGLVFAALLHSVA
+QATTRNAFQ-VQRRAYSSEIAQAMVEVSKNLGMGAAA-IGLTGAGIGIGLVFAALLNGVA
+NATTRQAF---QKRAYSSEIAQAMVEVSKNLGMGSAA-IGLTGAGIGIGLVFAALLNGVA
+TA-TRQI---TQKRAYSSEIAQAMVEVSKNLGMGTAA-IGLTGAGIGIGLVFAALLNGVA
+LSQGRNAFAPVMMRSVAETATAAILAAGKMQGAGLAT-IGLSGAGVGIGTVFAALINGTA
+NATTRQAFT-VQRRAYSSEIAQAMVEVSKNLGMGAAA-IGLTGAGIGIGLVFAALLNGVA
+-----------------------MFASSRLPGV-VAR-MGMKQPATAQGQVFGSLISGVA
+--AARSAFRNNAARQVAESTAAAMVAAAKIQGAGLAT-IGLAGAGVGIGTVFGGLIQGVA
+SNVFKASFAPQLVRPFSSELAEAMVIAGGNIGTGLAT-IGLAGAGAGIGTVFGALITGVA
+NNAFKASFAPQMVRPFSSELAEAMVIAGGNIGTGLAT-IGLAGAGVGIGTVFGSLITGVA
+SNAFKASFAPQLVRPFSSELAEALVIAGGNIGTGLAT-IGLAGAGVGIGTVFGALITGVA
+NNKLRTSFANTMIRNVAESATAAIVIAGKTAGAGLAT-IGLAGAGVGIGTVFGSLINGVA
+KTAAIGPLSRQAFRPYSSELANALVEAGQQVGTGLAT-IGLAGAGVGIGTVFGSLITGVA
+NLAARQLITRQAMRPYSSELAQALVEGAQNIGTGLAT-IGLAGAGVGIGSIFGALVTGTA
+SNAFKASFAPQMVRPFSSELAEALVIAGGNIGTGMAT-IGLAGAGAGIGTVFGSLITGVA
+SATTRSMLSRQTARPYSSEVASAMVVMSQNLGMGLAA-IGLGGAGIGIGLVFAALLKAVA
+SNAFKASFAPQIVRPFSSELAEAMVIAGGNIGTGLAT-IGLAGAGVGIGTVFGALITGVA
+SMAARQLMARQAVRPYSSELATALVEAGQNIGTGMAT-IGLAGAGVGIGSVFGNLITGVA
+-----------------------MLQSARIIGTGLAT-TGLIGAGVGIGVVFGALILGVA
+-----------------------MVQAAKIIGTGMAT-TGLIGAGVGIGVVFGALILGVA
+-----------------------MIQAARIIGTGLAT-TGLIGAGVGIGVVFGALILGVA
+-----------------------MIQAAKILGTGMAT-TGLIGAGVGIGVVFGALILGVA
+-----------------------MIQAAKLIGTGLAT-TGLIGAGVGIGVVFGALIIGVS
+-----------------------MIQAAKILGTGMAT-TGLIGAGVGIGVVFGALILGVA
+-------------------FIKKMIQAARIIGTGLAT-TGLIGAGVGIGVVFGALILGVA
+-----------------------MVQAAKIIGTGLAT-TGLIGAGVGIGVVFGALIIGVS
+-----------------------MIQAARIIGTGIAT-TGLIGAGVGIGVVFGCLIIGVS
+-----------------------MIQAAKIIGTGLAT-TGLIGAGVGIGVVFGALILGVA
+-----------------------MLESSRLIATGLAT-TGLIGAGVGIGIVFGALILGVS
+-----------------------MLQAAKIIGSGCAT-MGLIGAGIGIGIVFAALIMAYA
+-----------------------MIQAAKIIGTGLAT-TGLIGAGVGIGVVFGALILGVA
+-----------------------MVEASKLIGAGLAT-IGLAGAGVGIGVVFGCLIIGVA
+-----------------------MIQVAKIIGTGLAT-TGLIGAGIGIGVVFGSLIIGVS
+-----------------------LVLAAKYIGAGIST-IGLLGAGIGIAIVFAALINGVS
+-----------------------LALAAKYIGAGIST-IGLIGAGIGIGIVFAALINGVS
+-----------------------LVLAAKYIGAGIST-IGLLGAGIGIAIVFAALIQGVS
+-----------------------LVLAAKYIGAGIST-IGLLGAGIGIAIVFSALIQGVS
+-----------------------LALAAKYIGASIAT-LGLGGAAIGIALVFVALINGTS
+-----------------------LVLAGKYIGAGLAS-IGLVGAGIGIAIVFAALINGVS
+-----------------------MIQAAKYIGAGLAT-IGVSGAGVGIGLIFSNLISGTS
+-----------------------MLAAAKYIGAGLAC-SGLIGAGAGIGLIFSSLIASTA
+-----------------------MLAAAKYIGAGLAC-SGLIGAGAGIGLIFSSLIASTA
+------------------------MAAAKFIGAGLAA-IGLSGAGVGIGSIFSSLIASVA
+-----------------------MLAAAKYIGSGVAA-LGLIGAGIGVGIVFAALIQGVS
+-----------------------MVAAAKILGAGLAT-IGLAGAGVGVGLVFAALINSTS
+-----------------------MIASAKIIGAGLTT-MGLAGAGVGVGIVFASLIQGTS
+----------------------NLNMDLLYMAAAVMMGLAAIGAAIGIGILGGKFLEGAA
+-------------------------MSLGVLAAAIAVGLGALGAGIGNGLIVSRTIEGIA
+----------------------PLIASASVLAAALAIGLASLGPGLAQGNASGQALEGIA
+---------------------RALILAASAIGAGLAM-IAGIGPGIGQGFAAGKGAEAVG
+Q--------------------SAAAAGLGKLGAALGAAIAVIGAGIGIGKIGGSAMEAIA
+Q--------------------VATGTGLAKLGEALGAGLAVIGAGLGIGKIGESAMEGIA
+TAIMPAIA-------MAAEGEASVAKGLLYLGAGLAIGLAGLGAGVGMGHAVRGTQEGVA
+------------------DLAQGLALLGKYLGAGLCMGIGAIGPGIGEGNIGAHAMDAMA
+--------------------AKTVVLAASAVGAGAAM-IAGIGPGVGQGYAAGKAVESVA
+----------------------AWVIIASIITAGFSVALVGMNATKAQGNAAASAFESVA
+------------------------VAAAKALGAGISV-IALAGVGLGIGNIFASLIASVA
+------------------------MVSLKFIGVGCMA-IGMLGAALGVSNIFSSLLNSIA
+-------------------------GELAHIGAGLAA-IGSGAAAIGVGNVAGNYLAGAL
+------------------------LVALKFIAIGLAV-FGMLGAGLGIANIFSAMLNGIA
+------------------------LEAAKMIGAGLAA-IALAGAGVGIGIIFGNYLSGAM
+------------------------AEAAKMIGAGLAA-IGMIGSGIGVGNIWANLIATVG
+-------------------------GDLAYIGAGLAG-MGTGIAALGVGNVAANFLAGAL
+---------------AAHEFGISIAQAARDLGAGIAV-FALAGVGMGLGNIFSTLISSVA
+------------------------IAAAREIGAGIAV-IALAGVGIGLGNIFSTLVSSIA
+-----------------------NILGLVALACGLIVGLGAIGASIGIALMGGKFLESSA
+-----------------------MTQAVLYIAGALMMGLGALGAAVGIGVLGGRFLEGAA
+-----------------------HVLGFVALAAGLIIGLGAIGACIGIGIMGSKYLESAA
+-----------------------HVLGFVALAAGLIIGLGAVGACIGIGIMGSKYLEAAA
+-----------------------IILGFVALACGLIVGLGAIGASIGIGLMGGKFLESSA
+-----------------------TVLSFSAIAVAIIVGLCALGTAVGFAVLGGKFLEGAA
+----------------------NLNMDLLYMAAAVMMGLAAIGAAIGIGILGGKFLEGAA
+-----------------------TVVGLTAIAVALLIGLGALGTAIGFGLLGGKFLEGAA
+-----------------------LTLGLVAIASAILIAFGALGTAIGFGLLGGRFLEAVA
+-----------------------TLLSFSAIAVGIIVGLASLGTAIGFALLGGKFLEGAA
+----------------------NLNMDLLYMAAAVMMGLAAIGAAIGIGILGGKFLEGAA
+---------------------GNIQLALICVGAALSIGLAGLGAGIGIGSVGQGACMGLA
+------------------------FFTMCVLAAGIGMALGTLGTGIGQGLAVKSAVEGTS
+LALAGVAFAHDGGMG-----GMDMIKSYSILGAMIGLGIAAFGGAIGMGNAAAATITGTA
+VALATAALAN------DGDVANQTLKAYSMIAAGLGLGLAALGGAIGMGHTAAATIAGTA
+LACAAVAFAAEINAPVEQEAINVWIKAFSVLAAGLGLGVAALGGAIGMGNTAAATIAGTA
+LLTAAVASAAEAAAPGGESYVKAIFAVGAMIGAGIAIGVGAVGAGLGIGTAASGACQAVG
+----------------------PSSLGLAIFGCAIGMALAALGCGIGQGLGLKGACEGIA
+ATPA-----------FAQT-ATSGPINLAPIGAGLAMAIAAGLCGLGQGKATASAAEALA
+----------------------IGTAAAQETGAGFAVGIAAFGGALGDGRAIAAACEGTA
+AVPA-----------FGQ--GSDAAAQWVPLAAGLGMALAAGLCGLGQGKATASATEALA
+AVPA-----------FAQDAGAGRPASLVPIGAGIGMAIAAGLCGLGQGKATASATEALA
+------------------------DLAYAFLAAGFGAGISVIGGAYGVSKCANAAMSGIS
+--------------------AKTIVLGCSAVGAGLAM-IAGLGPGIGEGYAAGKAVESVA
+-------------------------FGLGYIAVGLAAGLALLGAGIGIGRIGGSVAESIS
+---------------------------LAILGATIGAGLAAIGAGIGIGIIGSGAVDGVA
+------------------------IITLAEVAGNIGYGIGTLGPGIGLGILFGKAMESTA
+----------------------QTLAAVEGSLGSIGYGLAAIGPGVGVGIIFGNGTQAMA
+----------------------PMIAQGALIGGGLIMAGGAIGAGIGDGMAGNALVSGIA
+----------------------PQIASASVLAAALAIGLAAIGPGIGQGNASGQAVEGIA
+----------------------SITTAASVVAAGLAVGLGAIGPGIGQGSAAQGAVEGIA
+----------------------SITSAASVVAAGLAVGLAAIGPGIGQGTASGGAVEGIA
+----------------------PLVQAASVLAAALAIGLAAIGPGIGQGNAAGQAVEGIA
+-------------------------MSLGVIAAAIAIGLSALGAGIGNGLIVSRTIEGVA
+---------------------------MQFIAASIAAGIAAFGASIGNGMVISKTLEGMA
+---------------------------MNLIAAAIAIGLSALGAGIGNGLIVSRTVEGVA
+---------------------------MNYIAAGIALCGSAIGAGIGNGMLMAKLIESIA
+----------------------ITNQGYAFIGAGLAM-IAILGVGIGQGWSAAKSVEAVA
+--------------------ILTVTGDIKYIGAGLAS-VGILGTGVGQGLIGQGACLAIG
+TQ------------------TEFFATGLAYLGAGISI-LAAGLAGIGQGLAAARAVEAVG
+NVISSHV---EANLPQSLANGAGIAYLGKYIGTGITM-LAAGAVGLMQGFSTANAVQAVA
+Q--------------------EIASYDFGRMGLGIGIGLIIIGAALGIGRIGGSAVDAMS
+SEGAAH--------------AQDATAQAAAVAGSIGAGIVIVGASLGIGLLARAAVESMA
+TVSALPAL-AAGDTPPQQQPAASAANSGAGLGAGIGAGLAIVGAGIGIGLVGWSALAAIA
+TMAQPA--------------AAAAEVAAAGVSGSLTLGLAGAGAALGIGLIGGKAVEAVG
+PI-------------------LAAAAEAGGLTGSFTLGMAGAGAGIGVGLVGAKAAEAVG
+--------------------NIGLFSTLVTAMAVLAIGLGVVGPGLGMGIAIAKALEAIA
+Q-------------------AAAAGVGLSKLGAALGAGLAVIGAGIGIGKIGGSAMEGIA
+--------------------AKTVVLAASAVGAGTAM-IAGIGPGVGQGYAAGKAVESVA
+---------------------TTIIAVASIATSGLTIGIGVLGPAIGEGRAVATALSSLA
+--------------------TLGWIAFGSIIAAGLCMGIGAIGPAIGEGMALSRALSSIA
+
+RNPALRGQLFSYAILGFAFVEAIGLFDLMVAMMCKYV--------
+RNPSLRGQLFAYAILGFAFVEAIGLFDLMIAMMAKFL--------
+RNPALRGQLFSYAILGFAFVEAIGLFDLMVALMAKFT--------
+RNPALRGQLFSYAILGFAFVEAIGLFDLMVALMAKFT--------
+RNPALRGQLFSYAILGFAFVEAIGLFDLMVALMAKFT--------
+RNPALRSQLFSYAILGFAFAEATGLFALMVAFLLLFAY-------
+RNPALRGQLFSYAILGFAFWSIIGT--------------------
+RNPAMRGQLFSYAVLGFAFAEATGLFALMVAFLLLYAY-------
+RNPSLRGQLFQYAVLGFAFAEATGLFALMMSFLLLYVA-------
+RNPSMRGQLFAYAILGFAFAEATGLFALMVAFMIRFT--------
+RNPSMRGQLFAYAILGFAFAEATGLFALMVAFMIRFT--------
+RNPSMRGQLFAYAILGFAFAEATGLFALMVAFMIRFT--------
+RNPSLRGQLFSYAILGFAFAEATGLFALMVAFLILYAY-------
+RNPSLRGQLFSYAILGFAFAEATGLFALMVAFMIRFT--------
+RNPALRGQLFAYAILGFAFAEATGLFALMVAFMIRYT--------
+RNPSMRGQLFAYAILGFAFAEATGLFALMVAFMIRFT--------
+RNPSLRGQLFTYSILGFAFVEAMGLFTLMVAMMCKYV--------
+RNPSMRGQLFAYAILGFAFAEATGLFALMVAFMIRFT--------
+RNPSLRGQLFAYAILGFAFAEATGLFALMVAFMIRFT--------
+RNPALRGQLFSYAILGFAFAEATGLFALMMAFLLLYVA-------
+RNPSLRGQLFAYAILGFAFAEATGLFALMMAFLLLYVA-------
+RNPSLRGQLFSYAILGFAFAEATGLFALMMAFLLLYVA-------
+RNPALRGQLFAYAILGFAFAEATGLFALMMAFLLLYVA-------
+RNPSLRGQLFAYAILGFAFAEATGLFALMMAFLLLYGA-------
+RNPALRGQLFAYAILGFAFAEATGLFALMMAFLLLYVA-------
+RNPSLRGQLFSYAILGFAFAEATGLFALMMAFLLLYVA-------
+RNPSLRGQLFAYAILGFAFAEATGLFALMMAFLLLYVA-------
+RNPSLRGQLFSYAILGFAFAEATGLFALMMAFLLLYVS-------
+RNPAIKGQLFSYAILGFAFSEATGLFALMMAFLLLFVI-------
+RNPSLRGQLFNYAILGFAFSEATGLFALMMAFLLLYVA-------
+RNPSLKAQLFSYAILGFAFSEATGLFALMMAFLLLYVA-------
+RNPSLRGLLFSYAILGFAFSEATGLFALMMAFLLLYVA-------
+RNPSLKNQLFSYSILGFAFSEATALFALMMALLLLYVV-------
+RNPSLKSQLFAYAILGFAFSEATGLFALMMAFLLLYVA-------
+RNPSIKDTVFPMAILGFALSEATGLFCLMVSFLLLFGV-------
+RNPSLKDTLFSYSILGMALSEATGLFCLMISFMLLFAV-------
+RNPSMKDTLFQFAILGFAISEATGLFCLMISFLLLYGV-------
+RNPSLKDTLFPFAILGFALSEATGLFCLMISFLLLYAV-------
+RNPSLRSTLFPQAILGFALSEACGLFCLMISFLLLYAV-------
+RNPALKGQLFTYSILGFALSEATGLFALMIAFLLLYAV-------
+RNPSVRPHLFSMAILGFALTEATGLFCLMLAFLIIYAA-------
+RNPQIRGQLFSYAILGFALAEATGLFSLMIAFLLLYS--------
+RNPQLRGQLFTFAILGFALAEATGLFSLMIAFLLLYS--------
+RNPALRGQLFTYAILGFALAEATGLFALMISFLVLYS--------
+RNPSLRGQLFTYAILGFALSEATGLFALMVSFLLLYS--------
+RNPSLRPQLFSYTILGFALTEAIGLFALMMAFLLLYAA-------
+RNPAVKGDLFSYAILGFALTEALGLFSLMMAFLLLYAV-------
+RQPDLIPLLRTQFFIVMGLVDAIPMIAVGLGLYVMFAVA------
+RQPELRPVLQTTMFIGVALVEALPIIGVVFSFIYLGR--------
+RQPEAEGKIRGTLLLSLAFMESLTIYGLVIALVLLFANPFAS---
+KQPEAQGDILRTMLLGAAVAESTGIYALVVALILLFANPLLNLL-
+RQPEAAGDIRMNMIIIAALVEGVALIAIIVCLLTLFL--------
+RQPEAAGDIRMNMIIAAALVEGVSLFAVVVCGFLL----------
+RNPNAGGRLQTLMFIGLAFIETIALYGLLIAFILLFVV-------
+RQPEMVGTITTRMLLADAVAETTGIYSLLIAFMILLVV-------
+RQPEAKGDIISTMVLGQAIAESTGIYSLVIALILLYANPFVGLLG
+RQPEAGDQINRMLLFALAFIETIMIFTLTVALILLFANPLLGKLS
+RNPSSRDQVFSIGILGFALTEAVALFALLIAFLILFA--------
+RNPSATEQLQRMALIGAGLAEAMGLFSFVIAMLLIFS--------
+RNPSAAASQTATLFIGIAFAEALGIFAFLVALLLMFAV-------
+RNPESEGKMKSYVYIGAAMVEIMGLLAFVLAMLLIFAA-------
+RNPSAAQKQFPNLLLGFALAEATGLFGLVVALIILFAF-------
+RNPAAKSTVELYGWIGFAVTEAIALFALVVALILLFAA-------
+RNPSAAASQTATLFIGIAFAEALGIFSFLVALLLMFAV-------
+RNPASRPHVFGIGMLGFALTEAVALFALLIAFLILFA--------
+RNPAARPHVFGLGMLGFALTEAVALYALLIAFLILFV--------
+RQPELINELQTKMFILAGLIDAAFLIGVAIALLFAFANPFV---L
+RQPELIPMLRTQFFIVMGLVDAVPMIAVGLAMYVLFAVA------
+RQPELMNELQTKMFLLAGLIDAAFLIGVGIAMMFAFANPFV---L
+RQPELMNELQTKMFLLAGLIDAAFLIGVGIAMMFAFANPFV---L
+RQPELINELQTKMFILAGLIDAAFLIGVAIALMFAFANPFVSTLL
+RQPEMAPMLQVKMFIIAGLLDAVPMIGIVIALLFTFANPFVGQLA
+RQPDLIPLLRTQFFIVMGLVDAIPMIAVGLGLYVMFAVA------
+RQPEMVPMLQVKMFIVAGLLDAVTMIGVGIALFFTFANPFVGQIA
+RQPELAPQLQTRMFLIAGLLDAVPMIGVGIGLFFIFANPFVG---
+RQPEMAPMLQVKMFIIAGLLDAVPMIGIVIALLFTFANPFVGQLA
+RQPDLIPLLRTQFFIVMGLVDAIPMIAVGLGLYVMFAVA------
+RNPEVQPKLMVFMILGMALAESIAIYGLVISLILLYANPLLG---
+RNPGASGKILTTMMIGLAMIESLAIYALVVCLIILFANPYKDIAL
+RNPGVGGKLLTTMFVAMAMIEAQVIYTLVFAIIAIYSNPFLS---
+RNPGLGAKLMTTMFIALAMIEAQVIYALVIALIALYANPYLG---
+RNPGLGPKLMTTMFIALAMIEAQVIYALVIALIALYANPFIVLQ-
+RNPGVQGKIMMTMLVGMAMAESIAIYALVVSLVLIFANPYTKFFF
+RNPEASGKIQVALILGLAFIESLAIYALVINLIILFANPFV----
+RNPGARPGLFTFLILGLAFIESLALFTFVIIFLTK----------
+RNPGAGGRIFTMLLLGLALIETLVLFTFLTVILQKEP--------
+RNPGARPGIFIFLILGLAFIESLALFTFVIIFLKVHA--------
+RNPGARAGIQLLLVLGLAFIESLTLFTLVVIFLRVQ---------
+RQPEAAGDIRGAMIITAAMIEGIALLGLVICFLLAVK--------
+RQPEARGSIISTMILGQAVAESTGIYSLVIALILLYANPFLSKLG
+RQPEAAGKIQLVLYVAAGMIEGAALFAVVIALLIALKL-------
+RQPEMSSKIQSTMLIAAALVEGVCLFALVVCILALMRQ-------
+RQPEMSGKIQTIMFIGLALVEVLALIGFVAALII-----------
+RQPEAAGLIRANQILGFAFCEALALIGLVMPFVYGY---------
+RQPEAQSRLFTPFFITVGLVEAAYFINLAFMALFVFATPVK----
+RQPEAEGKIRGTLLLTLAFMESLTIYGLVIALVLLFANPFAG---
+RQPEAEGKIRGTLLLSFAFMESLTIYGLVVALVLLFANPFAG---
+RQPEAEGKIRGTLLLSLAFMESLTIYGLVVALVLLFANPFAG---
+RQPEAEGKIRGTLLLTLAFMESLTIYGLVIALVLLFANPFG----
+RQPELKGALQTIMFIGVALVEALPIIGVVIAFIVMNK--------
+RQPEMAGTLRGTMFIGVGLIEAVPILSVVVAFMLMSR--------
+RQPEARGQLMGIMFIGVGLVEALPIIGVVIAFMTFAG--------
+RQPELEGNLRTNMFISMALVEAMPIIVIAMSFVLINE--------
+RNPEVVSKIRSQYILSAAVTETGALYCFIIAILLVFVAR------
+RNPEMASKVTSTMIVSAGISESGAIYSLVIAILLIFVV-------
+RQPEASGKITVTMILGQAMVETSGIYALIIAFILSSK--------
+RNPEAQPKILSTMIVGLALAEAVAIYALIVSILIIFVA-------
+RQPEAGGRIQTAMIIAAALIEGATVIALVFILLCRG---------
+RQPEIAGNIQTAMIIAAALIEGVTFFALLLQIIV-----------
+RQPEQKGAIQVNMIVLAALVEGAAIIALLVICFALVNKA------
+RNPGAAGSIQTLAIIGMALAEAVAIYALIIAF-------------
+RNPGAFGRVLTVAILGMALAEAIAIYALILAF-------------
+RQPELEKSITRWLLIGLAMIESLAIYVLVIVLIVLFRSPMLEYLT
+RQPEASGDIRMNMIIAAALVEGVALLALVVCLLVLFL--------
+RQPEAKGDIISTMVLGQAVAESTGIYSLVIALILLYANPFVGLLG
+QQPDASATITRTLFVGLAMIESLSIYCFVVSMILIFANPFWNTAT
+QQPDETNTIVKFLFVGMAMVESTAIYCFVLAMILLFANPFWSYFL
+
+

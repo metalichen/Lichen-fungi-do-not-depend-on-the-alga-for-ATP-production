@@ -1,0 +1,292 @@
+IQ-TREE multicore version 2.0.3 for Linux 64-bit built Apr 26 2020
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    debary-vm1 (AVX2, FMA3, 236 GB RAM)
+Command: iqtree -s atp9_renamed_gpmph_intact.trimal.phylip -bb 50000 -pre atp9 -seed 12345 -m LG+F+G4 -nt 12
+Seed:    12345 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Dec 29 02:22:25 2020
+Kernel:  AVX+FMA - 12 threads (32 CPU cores detected)
+
+Reading alignment file atp9_renamed_gpmph_intact.trimal.phylip ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 117 sequences with 165 columns, 165 distinct patterns
+153 parsimony-informative, 8 singleton sites, 4 constant sites
+                                           Gap/Ambiguity  Composition  p-value
+   1  P16000_Emericella_nidulans                  13.33%    failed      2.44%
+   2  B6QLG4_Talaromyces_marneffei                10.30%    passed     12.29%
+   3  XP_011324668.1_Fusarium_graminearum         11.52%    passed     30.41%
+   4  P00842_Neurospora_crassa                    12.12%    passed     28.06%
+   5  Q03672_Podospora_anserina                   13.33%    passed     34.08%
+   6  B2APB0_Podospora_anserina                   18.18%    passed     84.17%
+   7  Q2GQX4_Chaetomium_globosum                  15.76%    failed      1.39%
+   8  Q2HBT4_Chaetomium_globosum                  55.76%    passed     67.80%
+   9  B2W3H8_Pyrenophora_tritici-repentis         25.45%    passed     42.42%
+  10  alectoria_sarmentosa                         7.27%    passed     25.05%
+  11  evernia                                      7.27%    passed     14.97%
+  12  fallacina                                    7.27%    passed     30.47%
+  13  gomphillus                                  15.76%    passed     40.15%
+  14  gyalolechia                                 16.36%    passed     18.59%
+  15  heterodermia                                17.58%    passed     61.63%
+  16  imshaugia                                    7.27%    passed     16.14%
+  17  lasallia                                     5.45%    failed      0.98%
+  18  pseudevernia                                 7.27%    passed     25.14%
+  19  ramalina_nuclear                             9.09%    failed      2.42%
+  20  Q37408_Emericella_nidulans                  55.15%    passed     97.98%
+  21  YP_009687549.1_Ramalina_intermedia          55.15%    passed     98.79%
+  22  QDM58080.1_Bacidia_sorediata                55.15%    passed     98.72%
+  23  YP_009655113.1_Cladonia_macilenta           55.15%    passed     95.68%
+  24  QCX31965.1_Nadvornikia_sorediata            55.15%    passed     99.18%
+  25  QCX31169.1_Cladonia_ravenelii               55.15%    passed     95.68%
+  26  YP_009642657.1_Phlyctis_petraea             52.12%    passed     99.46%
+  27  QCL17429.1_Graphis_scripta                  55.15%    passed     99.62%
+  28  QBP39468.1_Pertusaria_propinqua             55.15%    passed     97.77%
+  29  ANE20419.1_Peltigera_dolichorrhiza          55.15%    passed     98.07%
+  30  Q6V9D7_Talaromyces_marneffei                55.15%    passed     97.35%
+  31  Q1XA92_Paracoccidioides_brasiliensis        55.15%    passed     93.21%
+  32  Q01554_Trichophyton_rubrum                  55.15%    passed     99.22%
+  33  A5J039_Gibberella_zeae                      55.15%    passed     98.35%
+  34  Q12635_Neurospora_crassa                    55.15%    passed     99.16%
+  35  P61829_Saccharomyces_cerevisiae             53.94%    passed     99.19%
+  36  Q85Q98_Candida_glabrata                     53.94%    passed     93.00%
+  37  Q75G38_Ashbya_gossypii                      53.94%    passed     98.07%
+  38  P92811_Kluyveromyces_lactis                 53.94%    passed     95.83%
+  39  Q9B8D5_Candida_albicans                     53.94%    passed     76.34%
+  40  Q37695_Yarrowia_lipolytica                  53.94%    passed     97.27%
+  41  P21537_Schizosaccharomyces_pombe            55.15%    passed     84.19%
+  42  A7KCS5_Pleurotus_ostreatus                  55.76%    passed     65.63%
+  43  Q94ZJ5_Schizophyllum_commune                55.76%    passed     81.78%
+  44  Q6J9U5_Cryptococcus_neoformans              56.36%    passed     96.09%
+  45  Q0H8W9_Ustilago_maydis                      55.76%    passed     96.63%
+  46  Q3T4E5_Rhizopus_oryzae                      55.15%    passed     99.71%
+  47  Q37404_Allomyces_macrogynus                 55.15%    passed     99.69%
+  48  P68699_Escherichia_coli                     52.12%    passed     24.59%
+  49  P00845_Bacillus_sp                          56.36%    passed     91.68%
+  50  Q8DLP7_Thermosynechococcus_elongatus        50.30%    passed     84.09%
+  51  Q0ZS24_Clostridium_paradoxum                49.09%    passed     97.29%
+  52  A6L4M1_Bacteroides_vulgatus                 49.09%    passed     59.60%
+  53  B6YR09_Azobacteroides_pseudotrichonymphae   50.30%    passed     85.16%
+  54  O66564_Aquifex_aeolicus                     39.39%    passed     81.91%
+  55  B1LBC4_Thermotoga                           48.48%    passed      9.59%
+  56  P21905_Propionigenium_modestum              46.06%    passed     69.50%
+  57  B8DYT4_Dictyoglomus_turgidum                48.48%    passed     63.00%
+  58  Q0BQY6_Granulibacter_bethesdensis           55.15%    passed     73.11%
+  59  Q1RGZ2_Rickettsia_bellii                    55.15%    passed     72.42%
+  60  Q16AM7_Roseobacter_denitrificans            55.15%    passed     57.84%
+  61  C0R5U2_Wolbachia                            54.55%    passed     73.25%
+  62  Q4FPE8_Pelagibacter_ubique                  54.55%    passed     97.97%
+  63  P15014_Rhodospirillum_rubrum                54.55%    failed      0.01%
+  64  Q1GDE1_Ruegeria                             55.15%    passed     96.99%
+  65  Q5FRW6_Gluconobacter_oxydans                48.48%    failed      2.33%
+  66  A9HDM8_Gluconacetobacter_diazotrophicus     55.15%    passed     80.12%
+  67  A9BPU2_Delftia_acidovorans                  50.91%    passed     89.23%
+  68  Q3SF61_Thiobacillus_denitrificans           52.73%    passed     43.86%
+  69  A2SC65_Methylibium_petroleiphilum           50.91%    passed     73.58%
+  70  Q12GQ5_Polaromonas                          50.91%    passed     69.89%
+  71  A1WF53_Verminephrobacter_eiseniae           49.09%    passed     94.28%
+  72  Q8DDH3_Vibrio_vulnificus                    49.09%    passed     91.16%
+  73  Q57HX4_Salmonella_choleraesuis              52.12%    passed     24.59%
+  74  A6VF37_Pseudomonas_aeruginosa               49.09%    passed     76.18%
+  75  B2I0Z7_Acinetobacter_baumannii              50.91%    passed     82.63%
+  76  B5FCZ6_Aliivibrio_fischeri                  49.09%    passed     98.29%
+  77  B1JR36_Yersinia_pseudotuberculosis          52.12%    passed     24.59%
+  78  Q6AQ28_Desulfotalea_psychrophila            49.70%    passed     34.28%
+  79  B5EFG9_Geobacter_bemidjiensis               49.70%    passed     73.67%
+  80  Q9ZK12_Helicobacter_pylori                  36.36%    passed     44.19%
+  81  Q30TH1_Sulfurimonas_denitrificans           36.97%    passed      9.83%
+  82  Q5HUM3_Campylobacter_jejuni                 32.12%    passed     36.89%
+  83  Q2LRB9_Syntrophus_aciditrophicus            29.70%    passed     52.69%
+  84  Q1MPG5_Lawsonia_intracellularis             49.09%    passed      9.85%
+  85  A0A239HVC7_Granulicella_rosea               40.00%    passed     85.93%
+  86  A0A321LJJ6_Blastocatellia                   49.09%    passed     48.44%
+  87  A0A1H5UI06_Bryocella_elongata               39.39%    passed     46.45%
+  88  A0A2Z5G5X6_Acidisarcina_polymorpha          38.79%    passed     98.70%
+  89  A0A523HR94_Caldithrix                       54.55%    passed     61.73%
+  90  Q8RGD7_Fusobacterium_nucleatum              46.06%    passed     92.21%
+  91  A0A5E8HEI5_Leptospira_yanagawae             54.55%    passed     75.63%
+  92  A0A5C8CHL9_Brachyspira_aalborgi             55.76%    passed     35.66%
+  93  Q8G7A8_Bifidobacterium_longum               56.36%    passed     81.69%
+  94  P0A304_Streptomyces_coelicolor              53.94%    passed     92.50%
+  95  B8ZR37_Mycobacterium_leprae                 50.91%    passed     93.23%
+  96  B8HPJ7_Cyanothece                           50.30%    passed     99.33%
+  97  A9BCE3_Prochlorococcus_marinus              50.30%    passed     99.66%
+  98  Q7U8W9_Synechococcus                        50.30%    passed     99.03%
+  99  B2J054_Nostoc_punctiforme                   50.91%    passed     98.07%
+ 100  B7HY70_Bacillus_cereus                      56.36%    passed     86.24%
+ 101  Q03A23_Lactobacillus_paracasei              57.58%    passed     92.46%
+ 102  Q6G7K2_Staphylococcus_aureus                57.58%    passed     90.89%
+ 103  Q04G25_Oenococcus_oeni                      57.58%    passed     14.70%
+ 104  Q8EWZ3_Mycoplasma_penetrans                 52.73%    passed     34.53%
+ 105  Q2ST39_Mycoplasma_capricolum                38.79%    passed     26.96%
+ 106  A9NGW7_Acholeplasma_laidlawii               47.88%    passed     92.88%
+ 107  B5ZAW9_Ureaplasma_urealyticum               38.18%    passed     59.81%
+ 108  L7CKB9_Rhodopirellula_baltica               48.48%    passed     25.04%
+ 109  A0A1U7CMD2_Paludisphaera_borealis           41.82%    passed     65.78%
+ 110  A0A6P2D4P8_Gemmata_massiliana               32.12%    passed     11.85%
+ 111  A0A1T4XGF3_Prosthecobacter_debontii         49.70%    passed     70.52%
+ 112  A0A146G6M0_Terrimicrobium_sacchariphilum    52.12%    passed     92.60%
+ 113  A0A0C1RJ96_Methylacidiphilum_kamchatkense   47.27%    passed     27.25%
+ 114  Q64UA7_Bacteroides_fragilis                 48.48%    passed     65.69%
+ 115  Q8KRV3_Ilyobacter_tartaricus                46.06%    passed     78.91%
+ 116  Q8TN57_Methanosarcina_acetivorans           45.45%    failed      0.79%
+ 117  C6BWK9_Desulfovibrio_salexigens             47.27%    failed      0.02%
+WARNING: 64 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                       44.77%  8 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: QCX31169.1_Cladonia_ravenelii is identical to YP_009655113.1_Cladonia_macilenta but kept for subsequent analysis
+NOTE: Q57HX4_Salmonella_choleraesuis is identical to P68699_Escherichia_coli but kept for subsequent analysis
+NOTE: 1 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: B1JR36_Yersinia_pseudotuberculosis (identical to P68699_Escherichia_coli) is ignored but added at the end
+Alignment was printed to atp9.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to atp9.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.067 seconds
+Generating 50000 samples for ultrafast bootstrap (seed: 12345)...
+
+NOTE: 49 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -nt AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -12059.935
+2. Current log-likelihood: -11600.527
+3. Current log-likelihood: -11571.423
+4. Current log-likelihood: -11570.299
+5. Current log-likelihood: -11570.195
+Optimal log-likelihood: -11570.072
+Gamma shape alpha: 1.345
+Parameters optimization took 5 rounds (0.943 sec)
+Computing ML distances based on estimated model parameters... 1.795 sec
+Computing BIONJ tree...
+0.032 seconds
+Log-likelihood of BIONJ tree: -11608.580
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 5.294 second
+Computing log-likelihood of 98 initial trees ... 7.264 seconds
+Current best score: -11570.072
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -11485.419
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -11464.555
+Iteration 10 / LogL: -11498.680 / Time: 0h:0m:45s
+Iteration 20 / LogL: -11488.133 / Time: 0h:1m:15s
+Finish initializing candidate tree set (20)
+Current best tree score: -11464.555 / CPU time: 73.636
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -11464.350
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -11464.114
+Iteration 30 / LogL: -11465.023 / Time: 0h:1m:41s (0h:5m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -11462.388
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 40: -11462.197
+Iteration 40 / LogL: -11462.197 / Time: 0h:2m:6s (0h:5m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -11461.425
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -11461.179
+Iteration 50 / LogL: -11461.179 / Time: 0h:2m:31s (0h:5m:8s left)
+Log-likelihood cutoff on original alignment: -11555.842
+Iteration 60 / LogL: -11465.110 / Time: 0h:3m:34s (0h:5m:27s left)
+Iteration 70 / LogL: -11463.069 / Time: 0h:3m:59s (0h:4m:37s left)
+Iteration 80 / LogL: -11482.483 / Time: 0h:4m:24s (0h:3m:53s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 83: -11460.021
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 85: -11459.992
+Iteration 90 / LogL: -11487.208 / Time: 0h:4m:48s (0h:5m:7s left)
+Iteration 100 / LogL: -11462.310 / Time: 0h:5m:12s (0h:4m:28s left)
+Log-likelihood cutoff on original alignment: -11555.842
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+BETTER TREE FOUND at iteration 107: -11459.992
+Iteration 110 / LogL: -11463.143 / Time: 0h:6m:1s (0h:5m:21s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 114: -11459.393
+Iteration 120 / LogL: -11460.751 / Time: 0h:6m:25s (0h:5m:4s left)
+Iteration 130 / LogL: -11459.972 / Time: 0h:6m:50s (0h:4m:27s left)
+Iteration 140 / LogL: -11462.214 / Time: 0h:7m:15s (0h:3m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 149: -11459.160
+Iteration 150 / LogL: -11467.586 / Time: 0h:7m:40s (0h:5m:5s left)
+Log-likelihood cutoff on original alignment: -11555.842
+Iteration 160 / LogL: -11459.435 / Time: 0h:8m:30s (0h:4m:45s left)
+Iteration 170 / LogL: -11461.879 / Time: 0h:8m:56s (0h:4m:10s left)
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -11459.043
+Iteration 180 / LogL: -11459.105 / Time: 0h:9m:21s (0h:3m:36s left)
+Iteration 190 / LogL: -11459.110 / Time: 0h:9m:46s (0h:3m:2s left)
+Iteration 200 / LogL: -11459.455 / Time: 0h:10m:11s (0h:2m:30s left)
+Log-likelihood cutoff on original alignment: -11555.842
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.988
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -11464.918 / Time: 0h:11m:0s (0h:4m:44s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 211: -11458.677
+Iteration 220 / LogL: -11461.209 / Time: 0h:11m:28s (0h:4m:45s left)
+Iteration 230 / LogL: -11462.313 / Time: 0h:11m:52s (0h:4m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 236: -11458.607
+Iteration 240 / LogL: -11461.828 / Time: 0h:12m:20s (0h:4m:57s left)
+Iteration 250 / LogL: -11465.570 / Time: 0h:12m:45s (0h:4m:24s left)
+Log-likelihood cutoff on original alignment: -11555.842
+UPDATE BEST LOG-LIKELIHOOD: -11458.607
+Iteration 260 / LogL: -11460.225 / Time: 0h:13m:35s (0h:3m:59s left)
+Iteration 270 / LogL: -11460.146 / Time: 0h:14m:2s (0h:3m:26s left)
+UPDATE BEST LOG-LIKELIHOOD: -11458.607
+Iteration 280 / LogL: -11458.607 / Time: 0h:14m:29s (0h:2m:54s left)
+Iteration 290 / LogL: -11458.960 / Time: 0h:14m:56s (0h:2m:22s left)
+Iteration 300 / LogL: -11474.969 / Time: 0h:15m:24s (0h:1m:51s left)
+Log-likelihood cutoff on original alignment: -11555.842
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+Estimate model parameters (epsilon = 0.100)
+UPDATE BEST LOG-LIKELIHOOD: -11458.495
+Iteration 310 / LogL: -11460.641 / Time: 0h:16m:15s (0h:4m:43s left)
+Iteration 320 / LogL: -11466.876 / Time: 0h:16m:40s (0h:4m:10s left)
+Iteration 330 / LogL: -11458.565 / Time: 0h:17m:7s (0h:3m:38s left)
+TREE SEARCH COMPLETED AFTER 337 ITERATIONS / Time: 0h:17m:26s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -11458.495
+Optimal log-likelihood: -11458.494
+Gamma shape alpha: 1.199
+Parameters optimization took 1 rounds (0.091 sec)
+BEST SCORE FOUND : -11458.494
+Creating bootstrap support values...
+Split supports printed to NEXUS file atp9.splits.nex
+Total tree length: 66.007
+
+Total number of iterations: 337
+CPU time used for tree search: 7891.741 sec (2h:11m:31s)
+Wall-clock time used for tree search: 1044.423 sec (0h:17m:24s)
+Total CPU time used: 7931.069 sec (2h:12m:11s)
+Total wall-clock time used: 1071.558 sec (0h:17m:51s)
+
+Computing bootstrap consensus tree...
+Reading input file atp9.splits.nex...
+116 taxa and 1805 splits.
+Consensus tree written to atp9.contree
+Reading input trees file atp9.contree
+Log-likelihood of consensus tree: -11459.135
+
+Analysis results written to: 
+  IQ-TREE report:                atp9.iqtree
+  Maximum-likelihood tree:       atp9.treefile
+  Likelihood distances:          atp9.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          atp9.splits.nex
+  Consensus tree:                atp9.contree
+  Screen log file:               atp9.log
+
+Date and Time: Tue Dec 29 02:40:19 2020

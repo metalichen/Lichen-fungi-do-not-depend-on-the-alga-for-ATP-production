@@ -1,0 +1,48 @@
+#Snakemake pipeline used to assemble and bin the metagenomes
+
+import glob
+import os
+
+
+SAMPLE = ['GTX0158','GTX0161','GTX0163','TS1974']
+
+
+
+rule all:
+        input:  
+                expand("binning/{sample}/.t", sample = SAMPLE)
+        output: touch("touch")
+
+rule filtering:
+        input:  
+                i1="nonfiltered_reads/{sample}_1.fastq.gz",
+                i2="nonfiltered_reads/{sample}_2.fastq.gz"
+        output: 
+                "filtered_reads/{sample}/final_pure_reads_1.fastq",
+                "filtered_reads/{sample}/final_pure_reads_2.fastq"
+        shell:  
+                "gzip -d nonfiltered_reads/{wildcards.sample}_*.fastq.gz;"
+                "metawrap read_qc -1 nonfiltered_reads/{wildcards.sample}_1.fastq -2 nonfiltered_reads/{wildcards.sample}_2.fastq  -o filtered_reads/{wildcards.sample} -t 4;"
+                "gzip nonfiltered_reads/{wildcards.sample}_*.fastq"
+rule spades:
+        input:  
+                i1="filtered_reads/{sample}/final_pure_reads_1.fastq",
+                i2="filtered_reads/{sample}/final_pure_reads_2.fastq"
+        output: 
+                "spades_out/{sample}/metaspades/scaffolds.fasta"
+        threads: 10
+        shell:  
+                "metawrap assembly -1 {input.i1} -2 {input.i2} -o spades_out/{wildcards.sample} -t 10 -m 100 --metaspades"
+
+rule concoct:
+        input:  
+                i1="filtered_reads/{sample}/final_pure_reads_1.fastq",
+                i2="filtered_reads/{sample}/final_pure_reads_2.fastq",
+                i3="spades_out/{sample}/metaspades/scaffolds.fasta"
+        output: 
+                "binning/{sample}/.t"
+        threads: 5
+        shell:  
+                "metawrap binning -o binning/{wildcards.sample} -a {input.i3} -t 5 -m 100 --concoct read_qc filtered_reads/{wildcards.sample}/final_pure_reads_*.fastq;"
+                "gzip filtered_reads/{wildcards.sample}/*.fastq;"
+                "touch binning/{wildcards.sample}/.t"
