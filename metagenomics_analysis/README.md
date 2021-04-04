@@ -1,6 +1,6 @@
-Detailed description of the metagenomics analysis:
+# Detailed description of the metagenomics analysis:
 
-1. scripts/Snakefile contatins the full pipelene from raw reads to binned metagenome. We used metaWRAP to filter from human contamination, assemble them and bin the metagenomic assembly
+1. scripts/Snakefile contatins the full pipeline from raw reads to binned metagenome. We used metaWRAP to filter from human contamination, assemble them and bin the metagenomic assembly
 
 2. scripts/run_busco.sh contains a wrapper script we used to run BUSCO4 on each bin in each assembly. In each metagenome we identified a bin containing the ascomycete MAG:
 	* TS1974/short_summary.specific.ascomycota_odb10.bin.22.txt C:96.8%[S:96.4%,D:0.4%],F:0.2%,M:3.0%,n:1706 
@@ -20,4 +20,4 @@ To get the full MAG we used gc-cov plots (../gc_cov_plots/gc_cov_plots.R):
 		
 4. scripts/funannotate_annotation.sh contains a wrapper file we used to annotate the ascomycete MAGs using the funannotate pipeline
 
-5. Folder ../output_MAG_annotations contains the final genome annotations for the four ascomycete MAGs
+5. Folder output_MAG_annotations contains the final genome annotations for the four ascomycete MAGs
